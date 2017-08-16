@@ -1,0 +1,521 @@
+body {
+  box-sizing: border-box;
+  color:#373737;
+  background: #212121;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  
+  /*background-repeat: no-repeat;
+  background-image: url("https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t34.0-12/13401094_1113018608743853_1888025165_n.jpg?oh=c23a6575c0fffde62536b17280c8d4ea&oe=575B1B80&__gda__=1465597714_4af3042143f711cbb402f99376c1e6b6");
+*/
+  }
+  
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 700;
+  color:#222222;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 32px;
+  background: url('../images/bg_hr.png') repeat-x bottom;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0 15px 0;
+}
+
+footer p {
+  color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #007edf;
+  text-shadow: none;
+
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -ms-transition: text-shadow 0.5s ease;
+}
+
+a:hover, a:focus {text-decoration: underline;}
+
+footer a {
+  color: #F2F2F2;
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/*img {*/
+  /*position: relative;*/
+  /*margin: 0 auto;*/
+  /*max-width: 739px;*/
+  /*/!*padding: 5px;*!/*/
+  /*margin: 10px 0 10px 0;*/
+  /*border: 1px solid #ebebeb;*/
+
+  /*box-shadow: 0 0 5px #ebebeb;*/
+  /*-webkit-box-shadow: 0 0 5px #ebebeb;*/
+  /*-moz-box-shadow: 0 0 5px #ebebeb;*/
+  /*-o-box-shadow: 0 0 5px #ebebeb;*/
+  /*-ms-box-shadow: 0 0 5px #ebebeb;*/
+/*}*/
+
+/*p img {*/
+  /*display: inline;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
+  /*border: none;*/
+/*}*/
+
+pre, code {
+  width: 100%;
+  color: #222;
+  background-color: #fff;
+
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+pre {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+code {
+  padding: 3px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+pre code {
+  display: block;
+  box-shadow: none;
+}
+
+blockquote {
+  color: #666;
+  margin-bottom: 20px;
+  padding: 0 0 0 20px;
+  border-left: 3px solid #bbb;
+}
+
+
+ul, ol, dl {
+  margin-bottom: 15px
+}
+
+ul {
+  list-style-position: inside;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+hr {
+  height: 1px;
+  margin-bottom: 5px;
+  border: none;
+  background: url('../images/bg_hr.png') repeat-x center;
+}
+
+table {
+  border: 1px solid #373737;
+  margin-bottom: 20px;
+  text-align: left;
+ }
+
+th {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  background: #373737;
+  color: #fff;
+ }
+
+td {
+  padding: 10px;
+  border: 1px solid #373737;
+ }
+
+form {
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+/*******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+Full-Width Styles                                                               
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*******************************************************************************/
+
+.outer {
+  width: 100%;
+}
+
+.inner {
+  position: relative;
+  max-width: 640px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+#header_wrap {
+  background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
+}
+
+#header_wrap .inner {
+  padding: 20px 10px 30px 10px;
+}
+
+#main-name {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main-heading {
+	color: #F5EB9D;
+}
+
+#main-text {
+  color: gainsboro;
+}
+
+/*html {*/
+  /*background: url("images/wood-nature-sunny-forest.jpg") no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+/*}*/
+
+ #backgroundImage {
+	min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:fixed;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;
+	border: 0;
+  }
+
+ @media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #backgroundImage {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+/* way no. 1*/
+/*img.bg {*/
+  /*/!* Set rules to fill background *!/*/
+  /*min-height: 100%;*/
+  /*min-width: 1024px;*/
+
+  /*/!* Set up proportionate scaling *!/*/
+  /*width: 100%;*/
+  /*height: auto;*/
+
+  /*/!* Set up positioning *!/*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+/*}*/
+
+/*@media screen and (max-width: 1024px) { /!* Specific to this particular image *!/*/
+  /*img.bg {*/
+    /*left: 50%;*/
+    /*margin-left: -512px;   /!* 50% *!/*/
+  /*}*/
+/*}*/
+
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+    /*max-width: 2500px;*/
+    /*max-height: 1500px;*/
+}
+
+/* Way no. 2 */
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+        overflow-x: hidden;
+    overflow-y: hidden;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+        overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+  #backgroundImage2 {
+	min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:fixed;
+    top: 0%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;
+	border: 0;
+  }
+
+
+ /*    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    /*-webkit-transition-duration: 0.4s;*/
+   /* transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 5px;
+    border: 3px solid #555555;*/
+
+#MTANK {
+	font-size: 47px;
+}
+
+#contact-us {
+	top: 55px;
+	position: absolute;
+}
+
+#contact-us-button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	
+	background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#contact-us-button :hover {
+    background-color: #555555;
+    color: white;
+}
+
+#coming-soon {
+	    position: absolute;
+    top: 42%;
+    margin-top: -200px;
+    left: 0;
+    width: 100%;
+}
+
+#project_title {
+  margin: 0;
+  color: #fff;
+  font-size: 37px;
+  font-weight: 700;
+  text-shadow: #111 0px 0px 10px;
+}
+
+#project_tagline {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+}
+
+#main_content_wrap {
+  background: #f2f2f2;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 250px;
+
+}
+
+#main_content {
+  padding-top: 40px;
+  color: aliceblue;
+  background-color: rgba(71, 80, 60, .6);
+  border-radius: 50px;
+}
+
+#main-body {
+
+}
+
+#footer_wrap {
+  background: #212121;
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size:14px;
+  }
+
+  #downloads {
+    display: none;
+  }
+
+  .inner {
+    min-width: 320px;
+    max-width: 480px;
+  }
+
+
+#project_title {
+  font-size: 32px;
+  margin-left: 12px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  code, pre {
+    min-width: 320px;
+    max-width: 480px;
+    font-size: 11px;
+  }
+
+}
