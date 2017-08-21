@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>A Year in Computer Vision</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    <script type="text/javascript" src="js_utils/tipped.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/tipped.css"/>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -33,7 +31,7 @@
 <body class="c14 c52">
 
 <a href="/" class="download-pdf-btn">Home</a>
-<a href="pdfs/AYearofComputerVisionPDF.pdf" class="download-pdf-btn">Download PDF</a>
+<!--<a href="pdfs/AYearofComputerVisionPDF.pdf" class="download-pdf-btn">Download PDF</a>-->
 
 <div id="hamburger-container">
     <div id="hamburger-bar">
@@ -151,7 +149,7 @@
 
 <p class="c1"><span class="c6">Computer Vision typically refers to the scientific discipline of giving machines the ability of sight, or perhaps more colourfully, enabling machines to visually analyse their environments and the stimuli within them. This process typically involves the evaluation of an image, images or video. </span><span
         class="c6">The British Machine Vision Association (BMVA) defines Computer Vision as </span><span class="c6">&ldquo;</span><span class="c7 c6 c26 c14">the automatic extraction, analysis and </span><span
-        class="c7 c6 c26 c14 c22">understanding</span><span class="c7 c6 c26 c14">&nbsp;of useful information from a single image or a sequence of images.</span><span class="c6 c26 c14">&rdquo;</span><sup class="c6 c26 c14"><a href="#ftnt1"
+        class="c7 c6 c26 c14 c22">understanding</span><span class="c7 c6 c26 c14">&nbsp;of useful information from a single image or a sequence of images.</span><span class="c6 c26 c14">&rdquo;</span><sup class="c6 c12"><a href="#ftnt1"
                                                                                                                                                                                                                                    id="ftnt_ref1">[1]</a></sup>
 </p>
 
@@ -178,9 +176,9 @@
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c1"><span class="c6">One such glaring omission relates to the functionality of Convolutional Neural Networks (hereafter CNNs or ConvNets), which are ubiquitous within the field of Computer Vision. The success of</span><span class="c6">&nbsp;AlexNet</span><sup
-        class="c6" id="#ftnt_ref2"><a class="tooltip" href="#ftnt2" id="ftnt_ref2">[2]</a></sup><span class="c6">&nbsp;in 201</span><span class="c6">2, a CNN architecture which blindsided ImageNet competitors, proved instigator of a de facto revolution within the field, with numerous researchers adopting neural network-based approaches as part of Computer Vision&rsquo;s new period of &lsquo;normal science&rsquo;.</span><sup
-        class="c6"><a href="#ftnt3" id="ftnt_ref3">[3]</a></sup><span class="c5">&nbsp;</span></p>
+<p class="c1"><span class="c6">One such glaring omission relates to the functionality of Convolutional Neural Networks (hereafter CNNs or ConvNets), which are ubiquitous within the field of Computer Vision. The success of</span><span class="c6">&nbsp;AlexNet</span>
+    <sup class="c6 c12" id="#ftnt_ref2"><a href="#ftnt2" id="ftnt_ref2">[2]</a></sup><span class="c6">&nbsp;in 201</span><span class="c6">2, a CNN architecture which blindsided ImageNet competitors, proved instigator of a de facto revolution within the field, with numerous researchers adopting neural network-based approaches as part of Computer Vision&rsquo;s new period of &lsquo;normal science&rsquo;.</span><sup
+        class="c6 c12"><a href="#ftnt3" id="ftnt_ref3">[3]</a></sup><span class="c5">&nbsp;</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -195,13 +193,13 @@
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_240e30rf1rxr-0 start">
     <li class="c2 c13 c40"><h1 id="h.hftfmj325246" style="display:inline"><span class="c12 c6 c14">What a Deep Neural Network thinks about your #selfie</span><span class="c6 c14">&nbsp;</span><span class="c32 c6 c14">from Andrej Karpathy is one of our favourites for helping people understand the applications and functionalities behind CNNs.</span><sup
-            class="c32 c6 c14"><a href="#ftnt4" id="ftnt_ref4">[4]</a></sup><span class="c5 c14">&nbsp;</span></h1></li>
+            class="c6 c12"><a href="#ftnt4" id="ftnt_ref4">[4]</a></sup><span class="c5 c14">&nbsp;</span></h1></li>
     <li class="c40 c2 c13"><h1 id="h.mqa1vkna84m6" style="display:inline"><span class="c12 c6">Quora</span><span class="c6">: &ldquo;what is a convolutional neural network?&rdquo; - </span><span class="c32 c6">Has no shortage of great links and explanations. Particularly suited to those with </span><span
-            class="c32 c6 c22">no prior understanding</span><span class="c32 c6">.</span><sup class="c6"><a href="#ftnt5" id="ftnt_ref5">[5]</a></sup></h1></li>
+            class="c32 c6 c22">no prior understanding</span><span class="c32 c6">.</span><sup class="c6 c12"><a href="#ftnt5" id="ftnt_ref5">[5]</a></sup></h1></li>
     <li class="c40 c2 c13"><h1 id="h.6ccsyaqqg7md" style="display:inline"><span class="c12 c6">CS231n: Convolutional Neural Networks for Visual Recognition </span><span
-            class="c32 c6">from Stanford University is an excellent resource for more depth.</span><sup class="c6"><a href="#ftnt6" id="ftnt_ref6">[6]</a></sup></h1></li>
+            class="c12 c6">from Stanford University is an excellent resource for more depth.</span><sup class="c6 c12"><a href="#ftnt6" id="ftnt_ref6">[6]</a></sup></h1></li>
     <li class="c1 c2 c13"><span class="c12 c6">Deep Learning</span><span class="c6">&nbsp;(Goodfellow, Bengio &amp; Courville, 2016) provides detailed explanations of CNN features and functionality in Chapter 9. The textbook has been kindly made available for free in HTML format by the authors.</span><sup
-            class="c6"><a href="#ftnt7" id="ftnt_ref7">[7]</a></sup></li>
+            class="c6 c12"><a href="#ftnt7" id="ftnt_ref7">[7]</a></sup></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -210,7 +208,7 @@
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_kskz43o1igm-0 start">
     <li class="c1 c2 c13"><span class="c12 c6">Neural Networks and Deep Learning </span><span class="c6">(Nielsen, 2017) is a free online textbook which provides the reader with a really intuitive understanding of the complexities of Neural Networks and Deep Learning. Even just completing </span><span
-            class="c6 c22">chapter one</span><span class="c6">&nbsp;should greatly illuminate the subject matter of this piece for first-timers.</span><sup class="c6"><a href="#ftnt8" id="ftnt_ref8">[8]</a></sup></li>
+            class="c6 c22">chapter one</span><span class="c6">&nbsp;should greatly illuminate the subject matter of this piece for first-timers.</span><sup class="c6 c12"><a href="#ftnt8" id="ftnt_ref8">[8]</a></sup></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -248,7 +246,7 @@
 
 <p class="c1"><span class="c6">The task of classification, when it relates to images, </span><span class="c6">generally</span><span class="c6 c28">&nbsp;</span><span class="c6">refers to assigning a label to the whole image, e.g. &lsquo;cat&rsquo;. Assuming this, </span><span
         class="c6">Localisation </span><span class="c6">may then refer to finding where the object is in said image, </span><span class="c6">usually</span><span class="c6">&nbsp;denoted by the output of some form of bounding box around the object. Current classification/localisation techniques on</span><span
-        class="c6">&nbsp;ImageNet</span><sup class="c6"><a href="#ftnt9" id="ftnt_ref9">[9]</a></sup><span class="c6">&nbsp;have likely surpassed an ensemble of trained humans.</span><sup class="c6"><a href="#ftnt10"
+        class="c6">&nbsp;ImageNet</span><sup class="c6 c12"><a href="#ftnt9" id="ftnt_ref9">[9]</a></sup><span class="c6">&nbsp;have likely surpassed an ensemble of trained humans.</span><sup class="c6 c12"><a href="#ftnt10"
                                                                                                                                                                                                           id="ftnt_ref10">[10]</a></sup><span class="c6">&nbsp;</span><span
         class="c5">For this reason, we place greater emphasis on subsequent sections of the blog. </span></p>
 
@@ -258,7 +256,7 @@
 
 <p class="c1 image-margin" ><span
         style="/*overflow: hidden; display: inline-block;*/     display: block; margin: 0 auto; /*margin: 0.00px 0.00px; border: 0.00px solid #000000; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); /*width: 624.00px; height: 223.90px;*/">
-    <img class="border cntr" alt="" src="assets/images/image12.png" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 259.25px; margin-left: 0.00px; margin-top: -35.35px;  margin: 0 auto;transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+    <img class="border cntr" alt="" src="assets/images/c-image12.jpg" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 259.25px; margin-left: 0.00px; margin-top: -35.35px;  margin: 0 auto;transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 </span></p>
 
 <p class="c1"><span class="c3 c12 c14 c26">Source</span><span class="c3 c26 c14">: Fei-Fei Li, Andrej Karpathy &amp; Justin Johnson (2016) cs231n, Lecture 8 - Slide 8, </span>
@@ -269,10 +267,10 @@
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c1"><span class="c6">However, the introduction of larger datasets with an increased number of classes</span><sup class="c6"><a href="#ftnt11" id="ftnt_ref11">[11]</a></sup><span
+<p class="c1"><span class="c6">However, the introduction of larger datasets with an increased number of classes</span><sup class="c6 c12"><a href="#ftnt11" id="ftnt_ref11">[11]</a></sup><span
         class="c6">&nbsp;will likely provide new metrics for progress</span><span class="c6">&nbsp;in the near future</span><span class="c6">. On that point, Fran&ccedil;ois Chollet, the creator of </span><span class="c6">Keras</span><span
-        class="c6">,</span><sup class="c6"><a href="#ftnt12" id="ftnt_ref12">[12]</a></sup><span class="c6">&nbsp;has applied new techniques, including the popular architecture Xception, to an internal google dataset with over 350 million multi-label images containing 17,000 classes.</span><sup
-        class="c6"><a href="#ftnt13" id="ftnt_ref13">[13]</a></sup><span class="c6 c45">,</span><sup class="c6"><a href="#ftnt14" id="ftnt_ref14">[14]</a></sup>
+        class="c6">,</span><sup class="c6 c12"><a href="#ftnt12" id="ftnt_ref12">[12]</a></sup><span class="c6">&nbsp;has applied new techniques, including the popular architecture Xception, to an internal google dataset with over 350 million multi-label images containing 17,000 classes.</span>
+    <sup class="c6 c12"><a href="#ftnt13" id="ftnt_ref13">[13]</a></sup><span class="c6 c45">,</span><sup class="c6 c12"><a href="#ftnt14" id="ftnt_ref14">[14]</a></sup>
     <span class="c5">&nbsp;</span></p>
 <br>
 <p class="c10"><span class="c12 c6 c26 c14">Figure 2</span><span class="c29 c6 c26 c14">: Classification/Localisation results from ILSVRC (2010-2016)</span></p>
@@ -297,19 +295,19 @@
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_jklfmxwzkhun-0 start">
     <li class="c1 c2 c13"><span class="c12 c6">Scene Classification</span><span class="c6">&nbsp;refers to the task of labelling an image with a certain scene class like &lsquo;greenhouse&rsquo;, &lsquo;stadium&rsquo;, &lsquo;cathedral&rsquo;, etc. ImageNet held a Scene Classification challenge last year with a subset of the Places2</span><sup
-            class="c6"><a href="#ftnt15" id="ftnt_ref15">[15]</a></sup><span class="c6">&nbsp;dataset: 8 million images for training with 365 scene categories. <br>Hikvision</span><sup class="c6"><a href="#ftnt16" id="ftnt_ref16">[16]</a></sup><span
+            class="c6 c12"><a href="#ftnt15" id="ftnt_ref15">[15]</a></sup><span class="c6">&nbsp;dataset: 8 million images for training with 365 scene categories. <br>Hikvision</span><sup class="c6 c12"><a href="#ftnt16" id="ftnt_ref16">[16]</a></sup><span
             class="c5">&nbsp;won with a 9% top-5 error with an ensemble of deep Inception-style networks, and not-so-deep residuals networks. </span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_jklfmxwzkhun-0">
     <li class="c1 c2 c13"><span class="c12 c6">Trimps-Soushen</span><span class="c6">&nbsp;won the ImageNet Classi</span><span class="c6">fication task with 2.99% top-5 classification error and 7.71% localisation error. The team employed an ensemble for classification (averaging the results of Inception, Inception-Resnet, ResNet and Wide Residual Networks models</span><sup
-            class="c6"><a href="#ftnt17" id="ftnt_ref17">[17]</a></sup><span class="c6">) and Faster R-CNN for localisation based on the labels.</span><sup class="c6"><a href="#ftnt18" id="ftnt_ref18">[18]</a></sup><span class="c6">&nbsp;The dataset was distributed across 1000 image classes with 1.2 million images provided as training data. The partitioned test data compiled a further 100 thousand unseen images.</span>
+            class="c6 c12"><a href="#ftnt17" id="ftnt_ref17">[17]</a></sup><span class="c6">) and Faster R-CNN for localisation based on the labels.</span><sup class="c6 c12"><a href="#ftnt18" id="ftnt_ref18">[18]</a></sup><span class="c6">&nbsp;The dataset was distributed across 1000 image classes with 1.2 million images provided as training data. The partitioned test data compiled a further 100 thousand unseen images.</span>
     </li>
 </ul>
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 <ul class="c18 lst-kix_jklfmxwzkhun-0">
     <li class="c1 c2 c13"><span class="c12 c6">ResNeXt</span><span class="c6">&nbsp;by Facebook came a close second in top-5 classification error with 3.03% by using a new architecture that extends th</span><span class="c6">e original ResNet architecture.</span><sup
-            class="c6"><a href="#ftnt19" id="ftnt_ref19">[19]</a></sup><span class="c5">&nbsp;</span></li>
+            class="c6 c12"><a href="#ftnt19" id="ftnt_ref19">[19]</a></sup><span class="c5">&nbsp;</span></li>
 </ul>
 <p class="c1 c9"><span class="c50 c12 c6 c26 c14"></span></p>
 
@@ -318,7 +316,7 @@
 <h1 class="c15 main-heading" id="heading-detection"><span class="c20 c12 c25">Object Detection</span></h1>
 
 <p class="c1"><span class="c6">As one can imagine the process of </span><span class="c12 c6">Object Detection</span><span class="c6">&nbsp;does exactly that, detects objects within images. </span><span class="c6">The definition provided for object detection by the ILSVRC 2016</span><sup
-        class="c6"><a href="#ftnt20" id="ftnt_ref20">[20]</a></sup><span class="c6 c14">&nbsp;includes outputting bounding boxes and labels for individual objects.</span><span class="c5 c14">&nbsp;This differs from the classification/localisation task by applying classification and localisation to many objects instead of just a single dominant object. </span>
+        class="c6 c12"><a href="#ftnt20" id="ftnt_ref20">[20]</a></sup><span class="c6 c14">&nbsp;includes outputting bounding boxes and labels for individual objects.</span><span class="c5 c14">&nbsp;This differs from the classification/localisation task by applying classification and localisation to many objects instead of just a single dominant object. </span>
 </p>
 
 <p class="c10"><span class="c20 c12 c6 c14">&nbsp;</span></p>
@@ -327,10 +325,10 @@
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 634.50px; height: 277.00px;"><img
-        class="border cntr" alt="" src="assets/images/image8.png" style="width: 95%; max-width: 634px; /*width: 634.50px; height: 277.00px; /*margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
+        class="border cntr" alt="" src="assets/images/c-image8-40.jpg" style="width: 95%; max-width: 634px; /*width: 634.50px; height: 277.00px; /*margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
         class="c6 c14"><br></span><span class="c3 c12">Note: </span><span class="c3">Picture is an example of face detection, Object Detection of a single class. The authors cite one of the persistent issues in Object Detection to be the detection of small objects. Using small faces as a test class they explore the </span><span
         class="c8 c3 c14">role of scale invariance, image resolution, and contextual reasoning. </span>
-<br><span class="c3 c12 c14">Source: </span><span class="c3 c14">Hu and Ramanan (2016, p. 1)</span><sup class="c3 c14"><a href="#ftnt21" id="ftnt_ref21">[21]</a></sup><span class="c5">&nbsp;</span></p>
+<br><span class="c3 c12 c14">Source: </span><span class="c3 c14">Hu and Ramanan (2016, p. 1)</span><sup class="c3 c12"><a href="#ftnt21" id="ftnt_ref21">[21]</a></sup><span class="c5">&nbsp;</span></p>
 
 <p class="c1"></p>
 
@@ -347,22 +345,22 @@
 
 <p class="c1"><span class="c6">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
 <ul class="c18 lst-kix_tdd8q3xf6s8o-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">SSD: Single Shot MultiBox Detector</span><sup class="c6"><a href="#ftnt22" id="ftnt_ref22">[22]</a></sup><span class="c6">&nbsp;utilises a single Neural Network which encapsulates all the necessary computation and eliminates the costly proposal generation of other methods. It achieves &ldquo;</span><span
+    <li class="c1 c2 c13"><span class="c12 c6">SSD: Single Shot MultiBox Detector</span><sup class="c6 c12"><a href="#ftnt22" id="ftnt_ref22">[22]</a></sup><span class="c6">&nbsp;utilises a single Neural Network which encapsulates all the necessary computation and eliminates the costly proposal generation of other methods. It achieves &ldquo;</span><span
             class="c7 c6">75.1% mAP, outperforming a comparable state of the art Faster R-CNN model</span><span class="c5">&rdquo; (Liu et al. 2016). </span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_tdd8q3xf6s8o-0">
-    <li class="c1 c2 c13"><span class="c6">One of the most impressive systems we saw in 2016 was from the aptly named &ldquo;</span><span class="c12 c6">YOLO9000: Better, Faster, Stronger</span><span class="c6">&rdquo;</span><sup class="c6"><a
-            href="#ftnt23" id="ftnt_ref23">[23]</a></sup><span class="c6">, which introduces the YOLOv2 and YOLO9000 detection systems.</span><sup class="c6"><a href="#ftnt24" id="ftnt_ref24">[24]</a></sup><span class="c6">&nbsp;YOLOv2 vastly improves the initial YOLO model from mid-2015,</span><sup
-            class="c6"><a href="#ftnt25" id="ftnt_ref25">[25]</a></sup><span class="c6">&nbsp;and is able to achieve better results at very high FPS </span><span class="c6">(up to 90 FPS on low resolution images using the original GTX Titan X)</span><span
+    <li class="c1 c2 c13"><span class="c6">One of the most impressive systems we saw in 2016 was from the aptly named &ldquo;</span><span class="c12 c6">YOLO9000: Better, Faster, Stronger</span><span class="c6">&rdquo;</span><sup class="c6 c12"><a
+            href="#ftnt23" id="ftnt_ref23">[23]</a></sup><span class="c6">, which introduces the YOLOv2 and YOLO9000 detection systems.</span><sup class="c6 c12"><a href="#ftnt24" id="ftnt_ref24">[24]</a></sup><span class="c6">&nbsp;YOLOv2 vastly improves the initial YOLO model from mid-2015,</span><sup
+            class="c6 c12"><a href="#ftnt25" id="ftnt_ref25">[25]</a></sup><span class="c6">&nbsp;and is able to achieve better results at very high FPS </span><span class="c6">(up to 90 FPS on low resolution images using the original GTX Titan X)</span><span
             class="c6">. In addition to completion speed, the system outperforms Faster RCNN with ResNet and SSD on certain object detection datasets.</span></li>
 </ul>
 <p class="c1"><span class="c6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 
 <p class="c1 c2"><span class="c6">YOLO9000 implements a joint training method for detection and classification extending its prediction capabilities beyond the labelled detection data available i.e. it is able to detect objects that it </span><span
         class="c6 c22">has never seen labelled detection data for</span><span class="c6">. The YOLO9000 model provides real-time object detection across 9000+ categories, closing the dataset size gap between classification and detection. Additional details, pre-trained models and a video showing it in action is available </span><span
-        class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=http://pjreddie.com/darknet/yolo/&amp;sa=D&amp;ust=1493073365973000&amp;usg=AFQjCNH82HqH1cHUdzMLRQKj9aLU__cffA">here</a></span><span class="c6">.</span><sup class="c6"><a
-        href="#ftnt26" id="ftnt_ref26">[26]</a><br>
+        class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=http://pjreddie.com/darknet/yolo/&amp;sa=D&amp;ust=1493073365973000&amp;usg=AFQjCNH82HqH1cHUdzMLRQKj9aLU__cffA">here</a></span><span class="c6">.</span>
+    <sup class="c6 c12"><a        href="#ftnt26" id="ftnt_ref26">[26]</a><br>
 
 </sup></p>
 
@@ -374,10 +372,11 @@ src="https://www.youtube.com/embed/VOC3huqHrss">
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_qxrwgmaqld8t-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">Feature Pyramid Networks for Object Detection</span><sup class="c12 c6"><a href="#ftnt27" id="ftnt_ref27">[27]</a></sup><span class="c6">&nbsp;comes from FAIR</span><sup class="c6"><a href="#ftnt28"
+    <li class="c1 c2 c13"><span class="c12 c6">Feature Pyramid Networks for Object Detection</span><sup class="c12 c6"><a href="#ftnt27" id="ftnt_ref27">[27]</a></sup><span class="c6">&nbsp;comes from FAIR</span>
+        <sup class="c6 c12"><a href="#ftnt28"
                                                                                                                                                                                                                                        id="ftnt_ref28">[28]</a></sup><span
             class="c6">&nbsp;and capitalises on the &ldquo;</span><span class="c7 c6">inherent multi-scale, pyramidal hierarchy of deep convolutional networks to construct feature pyramids with marginal extra cost</span><span class="c6">&rdquo;, meaning that representations remain powerful without compromising speed or memory. Lin et al. (2016) achieve state-of-the-art (hereafter SOTA) single-model results on COCO</span><sup
-            class="c6"><a href="#ftnt29" id="ftnt_ref29">[29]</a></sup><span class="c6">. Beating the results achieved by winners in 2016 when combined with a basic Faster R-CNN system. </span></li>
+            class="c6 c12"><a href="#ftnt29" id="ftnt_ref29">[29]</a></sup><span class="c6">. Beating the results achieved by winners in 2016 when combined with a basic Faster R-CNN system. </span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_eonlgzn3npwq-0 start">
@@ -396,11 +395,11 @@ src="https://www.youtube.com/embed/VOC3huqHrss">
         class="c7 c3">stratified by object size, meta-architecture and feature extractor</span><span class="c3">&rdquo; and &ldquo;</span><span class="c7 c3">image resolution is fixed to 300</span><span class="c3">&rdquo;. While Faster R-CNN performs comparatively well in the above sample, it is worth noting that the meta-architecture is considerably slower than more recent approaches, such as R-FCN.</span>
 </p>
 
-<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Huang et al. (2016, p. 9)</span><sup class="c3"><a href="#ftnt31" id="ftnt_ref31">[31]</a></sup></p>
+<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Huang et al. (2016, p. 9)</span><sup class="c6 c12"><a href="#ftnt31" id="ftnt_ref31">[31]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c1"><span class="c6">Huang et al. (2016)</span><sup class="c6"><a href="#ftnt32" id="ftnt_ref32">[32]</a></sup><span class="c6">&nbsp;present a paper which provides an in depth performance</span><span class="c28 c6">&nbsp;</span><span
+<p class="c1"><span class="c6">Huang et al. (2016)</span><sup class="c6 c12"><a href="#ftnt32" id="ftnt_ref32">[32]</a></sup><span class="c6">&nbsp;present a paper which provides an in depth performance</span><span class="c28 c6">&nbsp;</span><span
         class="c5">comparison between R-FCN, SSD and Faster R-CNN. Due to the issues around accurate comparison of Machine Learning (ML) techniques we&rsquo;d like to point to the merits of producing a standardised approach here. They view these architectures as &lsquo;meta-architectures&rsquo;
     since they can be combined with different kinds of feature extractors such as ResNet or Inception. </span></p>
 
@@ -413,13 +412,13 @@ src="https://www.youtube.com/embed/VOC3huqHrss">
 
 <p class="c1"><span
         class="c6">The trend of making object detection cheap and efficient while still retaining the accuracy required for real-time commercial applications, notably in autonomous driving applications, is also demonstrated by SqueezeDet</span><sup
-        class="c6"><a href="#ftnt33" id="ftnt_ref33">[33]</a></sup><span class="c6">&nbsp;and PVANet</span><sup class="c6">
+        class="c6 c12"><a href="#ftnt33" id="ftnt_ref33">[33]</a></sup><span class="c6">&nbsp;and PVANet</span><sup class="c6 c12">
     <a href="#ftnt34" id="ftnt_ref34">[34]</a>
 </sup><span class="c6">&nbsp;papers. While a Chinese company, DeepGlint, provides a good example of object detection in operation as a CCTV integration, albeit in a vaguely Orwellian manner: </span><span
         class="c0">
     <a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3Dxhp47v5OBXQ&amp;sa=D&amp;ust=1493073365985000&amp;usg=AFQjCNEjswSNzeXsL-r0Qn1whHFUrDIgSQ">Video</a></span><span class="c6">.</span>
 
-    <sup class="c6"><a href="#ftnt35" id="ftnt_ref35">[35]</a></sup></p>
+    <sup class="c6 c12"><a href="#ftnt35" id="ftnt_ref35">[35]</a></sup></p>
     <div class="embed-container">
     <iframe class="utube-embed utube-center"
 src="https://www.youtube.com/embed/xhp47v5OBXQ">
@@ -430,8 +429,8 @@ src="https://www.youtube.com/embed/xhp47v5OBXQ">
 
 <p class="c1"><span class="c12 c6">Results from ILSVRC and COCO Detection Challenge</span></p>
 
-<p class="c1"><span class="c6">COCO</span><sup class="c6"><a href="#ftnt36" id="ftnt_ref36">[36]</a></sup><span class="c6">&nbsp;(Common Objects in Context) is another popular image dataset. However, it is comparatively sma</span><span class="c6">ller and more curated than alternatives like ImageNet, with a focus on object recognition within the broader context of scene understanding. The organizers host a yearly challenge for Object Detection, segmentation and keypoints. Detection results from both the ILSVRC</span><sup
-        class="c6"><a href="#ftnt37" id="ftnt_ref37">[37]</a></sup><span class="c6">&nbsp;and the COCO</span><sup class="c6"><a href="#ftnt38" id="ftnt_ref38">[38]</a></sup><span class="c5">&nbsp;Detection Challenge are;</span></p>
+<p class="c1"><span class="c6">COCO</span><sup class="c6 c12"><a href="#ftnt36" id="ftnt_ref36">[36]</a></sup><span class="c6">&nbsp;(Common Objects in Context) is another popular image dataset. However, it is comparatively sma</span><span class="c6">ller and more curated than alternatives like ImageNet, with a focus on object recognition within the broader context of scene understanding. The organizers host a yearly challenge for Object Detection, segmentation and keypoints. Detection results from both the ILSVRC</span><sup
+        class="c6 c12"><a href="#ftnt37" id="ftnt_ref37">[37]</a></sup><span class="c6">&nbsp;and the COCO</span><sup class="c6 c12"><a href="#ftnt38" id="ftnt_ref38">[38]</a></sup><span class="c5">&nbsp;Detection Challenge are;</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_ihpmhvl4dcp7-0 start">
@@ -443,7 +442,7 @@ src="https://www.youtube.com/embed/xhp47v5OBXQ">
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1"><span class="c6">In review of the detection results for 2016, ImageNet stated that the &lsquo;MSRAVC 2015 set a very high bar for performance [introduction of ResNets to competition]. Performance on all classes has improved across entries. Localization improved greatly in both challenges. High relative improvement on small object instances&rsquo;
-    (ImageNet, 2016).</span><sup class="c6"><a href="#ftnt39" id="ftnt_ref39">[39]</a></sup></p>
+    (ImageNet, 2016).</span><sup class="c6 c12"><a href="#ftnt39" id="ftnt_ref39">[39]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -486,7 +485,7 @@ src="https://www.youtube.com/embed/xhp47v5OBXQ">
 
 <p class="c1 c2"><span class="c6">Networks) available: </span><span class="c0"><a class="c4 a-word-wrap"
                                                                                   href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DkMhwXnLgT_I&amp;sa=D&amp;ust=1493073366005000&amp;usg=AFQjCNF1mKL9Q130QuCuVj09pfa5-_cRUg">Video</a></span><sup
-        class="c6"><a href="#ftnt42" id="ftnt_ref42">[42]</a>
+        class="c6 c12"><a href="#ftnt42" id="ftnt_ref42">[42]</a>
 </sup>
 <!--</sup>-->
 
@@ -529,15 +528,15 @@ src="https://www.youtube.com/embed/kMhwXnLgT_I">
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c1"><span class="c6">Perhaps some of the best improvements in the area of segmentation come courtesy of FAIR, who continue to build upon their DeepMask work from 2015.</span><sup class="c6"><a href="#ftnt46"
+<p class="c1"><span class="c6">Perhaps some of the best improvements in the area of segmentation come courtesy of FAIR, who continue to build upon their DeepMask work from 2015.</span><sup class="c6 c12"><a href="#ftnt46"
                                                                                                                                                                                                            id="ftnt_ref46">[46]</a></sup><span class="c6">&nbsp;DeepMask generates rough &lsquo;masks&rsquo;
-    over objects as an initial form of segmentation. In 2016, Fair introduced SharpMask</span><sup class="c6"><a href="#ftnt47" id="ftnt_ref47">[47]</a></sup><span class="c6">&nbsp;which refines the &lsquo;masks&rsquo; provided by DeepMask, correcting the loss of detail and improving semantic segmentation</span><span
-        class="c6">.</span><span class="c6">&nbsp;In addition to this, MultiPathNet</span><sup class="c6"><a href="#ftnt48" id="ftnt_ref48">[48]</a></sup><span class="c5">&nbsp;identifies the objects delineated by each mask. </span></p>
+    over objects as an initial form of segmentation. In 2016, Fair introduced SharpMask</span><sup class="c6 c12"><a href="#ftnt47" id="ftnt_ref47">[47]</a></sup><span class="c6">&nbsp;which refines the &lsquo;masks&rsquo; provided by DeepMask, correcting the loss of detail and improving semantic segmentation</span><span
+        class="c6">.</span><span class="c6">&nbsp;In addition to this, MultiPathNet</span><sup class="c6 c12"><a href="#ftnt48" id="ftnt_ref48">[48]</a></sup><span class="c5">&nbsp;identifies the objects delineated by each mask. </span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1"><span class="c6">&ldquo;</span><span class="c7 c6">To capture general object shape, you have to have a high-level understanding of what you are looking at (DeepMask), but to accurately place the boundaries you need to look back at lower-level features all the way down to the pixels (SharpMask).</span><span
-        class="c6">&rdquo;</span><span class="c6">&nbsp;- Piotr Dollar, 2016.</span><sup class="c6"><a href="#ftnt49" id="ftnt_ref49">[49]</a></sup><span class="c5">&nbsp;</span></p>
+        class="c6">&rdquo;</span><span class="c6">&nbsp;- Piotr Dollar, 2016.</span><sup class="c6 c12"><a href="#ftnt49" id="ftnt_ref49">[49]</a></sup><span class="c5">&nbsp;</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -545,12 +544,12 @@ src="https://www.youtube.com/embed/kMhwXnLgT_I">
 
 <p class="c10 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 541.00px; height: 361.00px;"><img
-        alt="" class="border cntr" src="assets/images/image11.png" style="width: 100%; max-width: 541px; /*width: 541.00px; height: 361.00px;/* margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image11.jpg" style="width: 100%; max-width: 541px; /*width: 541.00px; height: 361.00px;/* margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1"><span class="c3 c12">Note</span><span class="c8 c3">: The above pictures demonstrate the segmentation techniques employed by FAIR. These include the application of DeepMask, SharpMask and MultiPathNet techniques which are applied in that order. This process allows accurate segmentation and classification in a variety of scenes. </span>
 </p>
 
-<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Dollar (2016).</span><sup class="c3"><a href="#ftnt50" id="ftnt_ref50">[50]</a></sup></p>
+<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Dollar (2016).</span><sup class="c6 c12"><a href="#ftnt50" id="ftnt_ref50">[50]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -561,7 +560,7 @@ src="https://www.youtube.com/embed/kMhwXnLgT_I">
 
 <p class="c1"><span class="c6">In 2016, researchers worked on </span><span class="c6">finding alternative network configurations to tackle the </span><span class="c6">aforementioned issues of scale and localisation. DeepLab</span><sup class="c6"><a
         href="#ftnt52" id="ftnt_ref52">[52]</a></sup><span class="c6">&nbsp;is one such example of this which achieves encouraging results for semantic image segmentation tasks. Khoreva et al. (</span><span class="c6">2016</span><span
-        class="c6">)</span><sup class="c6"><a href="#ftnt53" id="ftnt_ref53">[53]</a></sup><span class="c6">&nbsp;build on Deeplab&rsquo;s earlier work (circa 2015)</span><span class="c28 c6">&nbsp;</span><span class="c6">and propose a weakly supervised training method which achieves comparable results to fully supervised networks. </span>
+        class="c6">)</span><sup class="c6 c12"><a href="#ftnt53" id="ftnt_ref53">[53]</a></sup><span class="c6">&nbsp;build on Deeplab&rsquo;s earlier work (circa 2015)</span><span class="c28 c6">&nbsp;</span><span class="c6">and propose a weakly supervised training method which achieves comparable results to fully supervised networks. </span>
 </p>
 
 <p class="c1 c9"><span class="c5"></span></p>
@@ -581,7 +580,7 @@ src="https://www.youtube.com/embed/kMhwXnLgT_I">
 </ul>
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 
-<p class="c1"><span class="c6">While </span><span class="c12 c6">ENet</span><span class="c6">,</span><sup class="c6"><a href="#ftnt56" id="ftnt_ref56">[56]</a></sup><span class="c6">&nbsp;</span><span class="c6">a DNN architecture for real-time semantic segmentation, is not of this category, it does demonstrate the commercial merits of reducing computation costs and giving greater access to mobile devices.</span>
+<p class="c1"><span class="c6">While </span><span class="c12 c6">ENet</span><span class="c6">,</span><sup class="c6 c12"><a href="#ftnt56" id="ftnt_ref56">[56]</a></sup><span class="c6">&nbsp;</span><span class="c6">a DNN architecture for real-time semantic segmentation, is not of this category, it does demonstrate the commercial merits of reducing computation costs and giving greater access to mobile devices.</span>
 </p>
 
 <p class="c1 c9"><span class="c5"></span></p>
@@ -592,22 +591,22 @@ src="https://www.youtube.com/embed/kMhwXnLgT_I">
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 <ul class="c18 lst-kix_vu11v61n8lsf-0 start" style="margin-bottom: 15px;">
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1612.00799&amp;sa=D&amp;ust=1493073366040000&amp;usg=AFQjCNEB4bS_tkfyudGPwER7XdguJi60og">A Benchmark for Endoluminal Scene Segmentation
-        of Colonoscopy Images</a></span><sup class="c6"><a href="#ftnt57" id="ftnt_ref57">[57]</a></sup></li>
+        of Colonoscopy Images</a></span><sup class="c6 c12"><a href="#ftnt57" id="ftnt_ref57">[57]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1612.03925v1&amp;sa=D&amp;ust=1493073366041000&amp;usg=AFQjCNEDp6TQbKH1OTbIWMHS89QUWlXUNA">3D fully convolutional networks for
-        subcortical segmentation in MRI: A large-scale study</a></span><sup class="c6"><a href="#ftnt58" id="ftnt_ref58">[58]</a></sup></li>
+        subcortical segmentation in MRI: A large-scale study</a></span><sup class="c6 c12"><a href="#ftnt58" id="ftnt_ref58">[58]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.08664v3&amp;sa=D&amp;ust=1493073366042000&amp;usg=AFQjCNE4onfX87yzp9N9_qD1L10ty8Zpcw">Semi-supervised Learning using Denoising
-        Autoencoders for Brain Lesion Detection and Segmentation</a></span><sup class="c6"><a href="#ftnt59" id="ftnt_ref59">[59]</a></sup></li>
+        Autoencoders for Brain Lesion Detection and Segmentation</a></span><sup class="c6 c12"><a href="#ftnt59" id="ftnt_ref59">[59]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.09811&amp;sa=D&amp;ust=1493073366044000&amp;usg=AFQjCNEZ1fA-M8Npf38SUONi14HXV0tDEQ">3D Ultrasound image segmentation: A Survey</a></span><sup
-            class="c6"><a href="#ftnt60" id="ftnt_ref60">[60]</a></sup></li>
+            class="c6 c12"><a href="#ftnt60" id="ftnt_ref60">[60]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.02064&amp;sa=D&amp;ust=1493073366045000&amp;usg=AFQjCNEomtaDYKiZ9l9rx_pvJyNW0K6_MQ">A Fully Convolutional Neural Network based
-        Structured Prediction Approach Towards the Retinal Vessel Segmentation</a></span><sup class="c6"><a href="#ftnt61" id="ftnt_ref61">[61]</a></sup></li>
+        Structured Prediction Approach Towards the Retinal Vessel Segmentation</a></span><sup class="c6 c12"><a href="#ftnt61" id="ftnt_ref61">[61]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.04534&amp;sa=D&amp;ust=1493073366046000&amp;usg=AFQjCNFCK6ykk7sDlu70nWw8M4757YP5cg">3-D Convolutional Neural Networks for
-        Glioblastoma Segmentation</a></span><sup class="c6"><a href="#ftnt62" id="ftnt_ref62">[62]</a></sup><span class="c0"><a class="c4 a-word-wrap"
+        Glioblastoma Segmentation</a></span><sup class="c6 c12"><a href="#ftnt62" id="ftnt_ref62">[62]</a></sup><span class="c0"><a class="c4 a-word-wrap"
                                                                                                                                 href="https://www.google.com/url?q=https://arxiv.org/abs/1611.04534&amp;sa=D&amp;ust=1493073366046000&amp;usg=AFQjCNFCK6ykk7sDlu70nWw8M4757YP5cg"><br></a></span>
     </li>
 </ul>
 <p class="c1"><span class="c6">One of our favourite quasi-medical segmentation applications is </span><span class="c12 c6">FusionNet</span><sup class="c12 c6"><a href="#ftnt63" id="ftnt_ref63">[63]</a></sup><span class="c6">- a deep fully residual convolutional neural network for image segmentation in connectomics</span><sup
-        class="c6"><a href="#ftnt64" id="ftnt_ref64">[64]</a></sup><span class="c6">&nbsp;benchmarked against SOTA electron microscopy (EM) segmentation methods.</span></p>
+        class="c6 c12"><a href="#ftnt64" id="ftnt_ref64">[64]</a></sup><span class="c6">&nbsp;benchmarked against SOTA electron microscopy (EM) segmentation methods.</span></p>
     <div class="embed-container">
     <iframe class="utube-embed utube-center"
 src="https://www.youtube.com/embed/PNzQ4PNZSzc">
@@ -633,10 +632,10 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
     </li>
     <li class="c1 c2 c13"><span class="c12 c6 c14">Real-Time Video Super Resolution </span><span class="c6 c14">was also attempted in 2016 in two notable instances.</span><sup class="c12 c6 c14"><a href="#ftnt66" id="ftnt_ref66">[66]</a></sup><span
             class="c12 c6 c45 c14">,</span><sup class="c12 c6 c14"><a href="#ftnt67" id="ftnt_ref67">[67]</a></sup></li>
-    <li class="c1 c2 c13"><span class="c12 c6 c14">RAISR: </span><span class="c6 c14">Rapid and Accurate Image Super-Resolution</span><sup class="c6 c14"><a href="#ftnt68" id="ftnt_ref68">[68]</a></sup><span class="c6 c14">&nbsp;from Google avoids the costly memory and speed requirements of neural network approaches by training filters with low-resolution and high-resolution image pairs. RAISR, as a learning-based framework, is two orders of magnitude faster than competing algorithms and has minimal memory requirements when </span><span
+    <li class="c1 c2 c13"><span class="c12 c6 c14">RAISR: </span><span class="c6 c14">Rapid and Accurate Image Super-Resolution</span><sup class="c6 c12"><a href="#ftnt68" id="ftnt_ref68">[68]</a></sup><span class="c6 c14">&nbsp;from Google avoids the costly memory and speed requirements of neural network approaches by training filters with low-resolution and high-resolution image pairs. RAISR, as a learning-based framework, is two orders of magnitude faster than competing algorithms and has minimal memory requirements when </span><span
             class="c6 c14">compared with neural network-based approaches</span><span class="c6 c14">. Hence super-resolution is extendable to personal devices. There is a research blog available </span><span class="c0 c14"><a class="c4"
                                                                                                                                                                                                                                   href="https://www.google.com/url?q=https://research.googleblog.com/2016/11/enhance-raisr-sharp-images-with-machine.html&amp;sa=D&amp;ust=1493073366057000&amp;usg=AFQjCNHA4fKkrWQ5pUG9EGKyxqJyc1kcfg">here</a></span><span
-            class="c6 c14">.</span><sup class="c6 c14"><a href="#ftnt69" id="ftnt_ref69">[69]</a></sup><span class="c5 c14">&nbsp;</span></li>
+            class="c6 c14">.</span><sup class="c6 c12"><a href="#ftnt69" id="ftnt_ref69">[69]</a></sup><span class="c5 c14">&nbsp;</span></li>
 </ul>
 <p class="c1 c9"><span class="c5 c14"></span></p>
 
@@ -644,7 +643,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 244.40px;"><img
-        alt="" class="border cntr" src="assets/images/image10.png" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 307.59px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
+        alt="" class="border cntr" src="assets/images/c-image10.jpg" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 307.59px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
         class="c3 c12">Note</span><span class="c3">: From left to right: bicubic interpolation (the objective worst performer for focus), Deep residual network optimised for MSE, deep residual generative adversarial network optimized for a loss more sensitive to human perception, original High Resolution (HR) image. Corresponding peak signal to noise ratio (PSNR) and structural similarity (SSIM) are shown in two brackets. [4 x upscaling] The reader may wish to zoom in on the middle two images (SRResNet and SRGAN) to see the difference between image smoothness vs more realistic fine details.<br></span><span
         class="c3 c12">Source</span><span class="c3">: Ledig et al. (2017)</span><sup class="c3"><a href="#ftnt70" id="ftnt_ref70">[70]</a></sup></p>
 
@@ -659,7 +658,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 c2"><span
         class="c6 c14">Qualitatively SRGAN performs the best, although SRResNet performs best with peak-signal-to-noise-ratio (PSNR) metric but SRGAN gets the finer texture details and achieves the best Mean Opinion Score (MOS). </span><span
-        class="c7 c6 c14">&ldquo;To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4&times; upscaling factors.&rdquo;</span><sup class="c7 c6 c14"><a href="#ftnt72" id="ftnt_ref72">[72]</a></sup><span
+        class="c7 c6 c14">&ldquo;To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4&times; upscaling factors.&rdquo;</span><sup class="c7 c12"><a href="#ftnt72" id="ftnt_ref72">[72]</a></sup><span
         class="c28 c6 c14">&nbsp;</span><span class="c5 c14">All previous approaches fail to recover the finer texture details at large upscaling factors. </span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
@@ -674,41 +673,41 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
     <!--<span><span class="c12 c6">Figure 8</span><span class="c6">: Style Transfer from Nikulin &amp; Novak</span></span>-->
     <span class="image-margin" style="/*overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 431.00px; height: 300.00px;">
         <img
-        alt="" class="border cntr" src="assets/images/image20.png" style="width: 80%; max-width: 440px; /*width: 440.00px; height: 425.96px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
+        alt="" class="border cntr" src="assets/images/c-image20.jpg" style="width: 80%; max-width: 440px; /*width: 440.00px; height: 425.96px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
         class="c3"><br></span><span class="c3 c12">Note</span><span class="c3">: Transferring different styles to a photo of a cat (original top left).<br></span><span class="c3 c12">Source</span><span class="c3">: Nikulin &amp; Novak (2016)</span>
 </p>
 
 <p class="c46"><span class="c6">Undoubtedly, </span><span class="c12 c6">Style Transfer</span><span class="c6">&nbsp;epitomises a novel use of neural networks that has ebbed into the public domain, specifically through last year&rsquo;s facebook integrations and companies like </span><span
-        class="c6">Prisma</span><sup class="c6"><a href="#ftnt74" id="ftnt_ref74">[74]</a></sup><span class="c6">&nbsp;and Artomatix</span><sup class="c6"><a href="#ftnt75" id="ftnt_ref75">[75]</a></sup><span class="c6">. Style transfer is an older technique but converted to a neural networks in 2015 with the publication of </span><span
+        class="c6">Prisma</span><sup class="c6 c12"><a href="#ftnt74" id="ftnt_ref74">[74]</a></sup><span class="c6">&nbsp;and Artomatix</span><sup class="c6 c12"><a href="#ftnt75" id="ftnt_ref75">[75]</a></sup><span class="c6">. Style transfer is an older technique but converted to a neural networks in 2015 with the publication of </span><span
         class="c6">a</span><span class="c6">&nbsp;Neural Algorithm of Artistic Style.</span><sup class="c12 c6"><a href="#ftnt76" id="ftnt_ref76">[76]</a></sup><span class="c6">&nbsp;Since then, the concept of style transfer was expanded upon by Nikulin and Novak</span><sup
-        class="c6"><a href="#ftnt77" id="ftnt_ref77">[77]</a></sup><span class="c6">&nbsp;and also applied to video,</span><sup class="c6"><a href="#ftnt78" id="ftnt_ref78">[78]</a></sup><span class="c5">&nbsp;as is the common progression within Computer Vision. </span>
+        class="c6 c12"><a href="#ftnt77" id="ftnt_ref77">[77]</a></sup><span class="c6">&nbsp;and also applied to video,</span><sup class="c6 c12"><a href="#ftnt78" id="ftnt_ref78">[78]</a></sup><span class="c5">&nbsp;as is the common progression within Computer Vision. </span>
 </p>
 
 <p class="c47" style="padding-bottom: 0px;"><span class="c12 c6">Figure 9</span><span class="c6">: Further examples of Style Transfer</span></p>
 
 <p class="c46"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 548.00px; height: 328.60px;"><img
-        alt="" class="border cntr" src="assets/images/image18.png" style="width: 100%; max-width: 548px; /*width: 548.00px; height: 366.71px; /*margin-left: 0.00px; margin-top: 5.13px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
+        alt="" class="border cntr" src="assets/images/c-image18.jpg" style="width: 100%; max-width: 548px; /*width: 548.00px; height: 366.71px; /*margin-left: 0.00px; margin-top: 5.13px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
         class="c6"><br></span><span class="c3 c12">Note</span><span class="c3">: The top row (left to right) represent the artistic style which is transposed onto the original images which are displayed in the first column (Woman, Golden Gate Bridge and Meadow Environment). Using conditional instance normalisation a single style transfer network can capture 32 style simultaneously, five of which are displayed here. The full suite of images in available in the source paper&rsquo;s appendix. This work will feature in the International Conference on Learning Representations (ICLR) 2017. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span><span
-        class="c3 c12">Source</span><span class="c3">: Dumoulin et al. (2017, p. 2)</span><sup class="c3"><a href="#ftnt79" id="ftnt_ref79">[79]</a></sup><span class="c3"><br><br></span><span class="c6">Style transfer as a topic is fairly intuitive once visualised; take an image and imagine it with the stylistic features of a different image. For example, in the style of a famous painting or artist. This year Facebook released Caffe2Go,</span><sup
-        class="c6"><a href="#ftnt80" id="ftnt_ref80">[80]</a></sup><span class="c6">&nbsp;their deep learning system which integrates into mobile devices. Google also released some interesting work which sought to blend multiple styles to generate entirely unique image styles: Research blog</span><sup
-        class="c6"><a href="#ftnt81" id="ftnt_ref81">[81]</a></sup><span class="c6">&nbsp;and full paper.</span><sup class="c6"><a href="#ftnt82" id="ftnt_ref82">[82]</a></sup><span class="c5">&nbsp;<br><br>Besides mobile integrations, style transfer has applications in the creation of game assets. Members of our team recently saw a presentation by the Founder and CTO of Artomatix, Eric Risser, who discussed the technique&rsquo;s novel application for content generation in games (texture mutation, etc.) and, therefore, dramatically minimises the work of a conventional texture artist. </span>
+        class="c3 c12">Source</span><span class="c3">: Dumoulin et al. (2017, p. 2)</span><sup class="c6 c12"><a href="#ftnt79" id="ftnt_ref79">[79]</a></sup><span class="c3"><br><br></span><span class="c6">Style transfer as a topic is fairly intuitive once visualised; take an image and imagine it with the stylistic features of a different image. For example, in the style of a famous painting or artist. This year Facebook released Caffe2Go,</span><sup
+        class="c6 c12"><a href="#ftnt80" id="ftnt_ref80">[80]</a></sup><span class="c6">&nbsp;their deep learning system which integrates into mobile devices. Google also released some interesting work which sought to blend multiple styles to generate entirely unique image styles: Research blog</span><sup
+        class="c6 c12"><a href="#ftnt81" id="ftnt_ref81">[81]</a></sup><span class="c6">&nbsp;and full paper.</span><sup class="c6 c12"><a href="#ftnt82" id="ftnt_ref82">[82]</a></sup><span class="c5">&nbsp;<br><br>Besides mobile integrations, style transfer has applications in the creation of game assets. Members of our team recently saw a presentation by the Founder and CTO of Artomatix, Eric Risser, who discussed the technique&rsquo;s novel application for content generation in games (texture mutation, etc.) and, therefore, dramatically minimises the work of a conventional texture artist. </span>
 </p>
 
 <p class="c1"><span class="c12 c6">Colourisation</span><span class="c6">&nbsp;</span><span class="c5">is the process of changing monochrome images to new full-colour versions. Originally this was done manually by people who painstakingly selected colours to represent specific pixels in each image. In 2016, it became possible to automate this process while maintaining the appearance of realism indicative of the human-centric colourisation process. While humans may not accurately represent the true colours of a given scene, their real world knowledge allows the application of colours in a way which is consistent with the image and another person viewing said image.<br><br>The process of colourisation is interesting in that the network assigns the most likely colouring for images based on its understanding of object location, textures and environment, e.g. it learns that skin is pinkish and the sky is blueish.<br><br>Three of the most influential works of the year are as follows:</span>
 </p>
 <ul class="c18 lst-kix_8j5v1moclfjn-0 start">
-    <li class="c1 c2 c13"><span class="c6">Zhang et al.</span><sup class="c6"><a href="#ftnt83" id="ftnt_ref83">[83]</a></sup><span class="c5">&nbsp;produced a method that was able to successfully fool humans on 32% of their trials. Their methodology is comparable to a &ldquo;colourisation Turing test.&rdquo;</span>
+    <li class="c1 c2 c13"><span class="c6">Zhang et al.</span><sup class="c6 c12"><a href="#ftnt83" id="ftnt_ref83">[83]</a></sup><span class="c5">&nbsp;produced a method that was able to successfully fool humans on 32% of their trials. Their methodology is comparable to a &ldquo;colourisation Turing test.&rdquo;</span>
     </li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_8j5v1moclfjn-0">
-    <li class="c1 c2 c13"><span class="c6">Larsson et al.</span><sup class="c6"><a href="#ftnt84" id="ftnt_ref84">[84]</a></sup><span
+    <li class="c1 c2 c13"><span class="c6">Larsson et al.</span><sup class="c6 c12"><a href="#ftnt84" id="ftnt_ref84">[84]</a></sup><span
             class="c5">&nbsp;fully automate their image colourisation system using Deep Learning for Histogram estimation.</span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_8j5v1moclfjn-0">
-    <li class="c1 c2 c13"><span class="c6">Finally, Lizuka, Simo-Serra and Ishikawa</span><sup class="c6"><a href="#ftnt85" id="ftnt_ref85">[85]</a></sup><span class="c6">&nbsp;demonstrate a colourisation model also based upon CNNs. The work outperformed the existing SOTA, we [the team] feel as though this work is qualitatively best also, appearing to be the most realistic. Figure 10 provides comparisons, however the image is taken from Lizuka et al.<br></span>
+    <li class="c1 c2 c13"><span class="c6">Finally, Lizuka, Simo-Serra and Ishikawa</span><sup class="c6 c12"><a href="#ftnt85" id="ftnt_ref85">[85]</a></sup><span class="c6">&nbsp;demonstrate a colourisation model also based upon CNNs. The work outperformed the existing SOTA, we [the team] feel as though this work is qualitatively best also, appearing to be the most realistic. Figure 10 provides comparisons, however the image is taken from Lizuka et al.<br></span>
     </li>
 </ul>
 <p class="c10" style="margin-top: 10px;"><span class="c12 c6 c14">Figure 10</span><span class="c6 c14">: Comparison of Colourisation Research</span><span class="c5 c14">le</span></p>
@@ -717,14 +716,14 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 503.40px;"><img
-        alt="" class="border cntr" src="assets/images/image7.png" style="width:90%; max-width: 624px; /*width: 624.00px; height: 632.00px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image7.jpg" style="width:90%; max-width: 624px; /*width: 624.00px; height: 632.00px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1"><span class="c3 c12">Note</span><span class="c3">: From top to bottom - &nbsp;column one contains the original monochrome image input which is subsequently colourised through various techniques. The remaining columns display the results generated by other prominent colourisation research in 2016. When viewed from left to right, these are Larsson et al.</span><span
         class="c3 c45">78</span><span class="c3">&nbsp;2016 (column two), Zhang et al.</span><span class="c3 c45">77</span><span class="c3">&nbsp;2016 (Column three), and Lizuka, Simo-Serra and Ishikawa.</span><span class="c3 c45">79</span><span
         class="c8 c3">&nbsp;2016, also referred to as &ldquo;ours&rdquo; by the authors (Column four). The quality difference in colourisation is most evident in row three (from the top) which depicts a group of young boys. We believe Lizuka et al.&rsquo;s work to be qualitatively superior (Column four).</span>
 </p>
 
-<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Lizuka et al. 2016</span><sup class="c3"><a href="#ftnt86" id="ftnt_ref86">[86]</a></sup></p>
+<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Lizuka et al. 2016</span><sup class="c6 c12"><a href="#ftnt86" id="ftnt_ref86">[86]</a></sup></p>
 
 <p class="c1 c2"><span class="c6"><br>&ldquo;</span><span class="c7 c6">Furthermore, our architecture can process images of any resolution, unlike most existing approaches based on CNN.</span><span class="c6">&rdquo; <br><br>In a test to see how natural their colourisation was, users were given a random image from their models and were asked, &quot;does this image look natural to you?&quot;<br><br>Their approach achieved 92.6%, the baseline achieved roughly 70% and the ground truth (the actual colour photos) were considered 97.7% of the time to be natural.</span>
 </p>
@@ -736,7 +735,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_w7w41dfpoe57-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">Long-term Temporal Convolutions for Action Recognition</span><sup class="c6"><a href="#ftnt87" id="ftnt_ref87">[87]</a></sup><span class="c6">&nbsp;leverages the spatio-temporal structure of human actions, i.e. the particular movement and duration, to correctly recognise actions using a CNN variant. To overcome the sub-optimal temporal modelling of longer term actions by CNNs, the authors propose a neural network with long-term temporal convolutions (LTC-CNN) to improve the accuracy of action recognition. Put simply,</span><span
+    <li class="c1 c2 c13"><span class="c12 c6">Long-term Temporal Convolutions for Action Recognition</span><sup class="c6 c12"><a href="#ftnt87" id="ftnt_ref87">[87]</a></sup><span class="c6">&nbsp;leverages the spatio-temporal structure of human actions, i.e. the particular movement and duration, to correctly recognise actions using a CNN variant. To overcome the sub-optimal temporal modelling of longer term actions by CNNs, the authors propose a neural network with long-term temporal convolutions (LTC-CNN) to improve the accuracy of action recognition. Put simply,</span><span
             class="c5">&nbsp;the LTCs can look at larger parts of the video to recognise actions. Their approach uses and extends 3D CNNs &lsquo;to enable action representation at a fuller temporal scale&rsquo;. </span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
@@ -753,14 +752,14 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_w7w41dfpoe57-0">
-    <li class="c1 c2 c13"><span class="c12 c6">Anticipating Visual Representations from Unlabeled Video</span><sup class="c6"><a href="#ftnt89" id="ftnt_ref89">[89]</a></sup><span class="c6">&nbsp;is an interesting paper, although not strictly action classification. The program </span><span
+    <li class="c1 c2 c13"><span class="c12 c6">Anticipating Visual Representations from Unlabeled Video</span><sup class="c6 c12"><a href="#ftnt89" id="ftnt_ref89">[89]</a></sup><span class="c6">&nbsp;is an interesting paper, although not strictly action classification. The program </span><span
             class="c6 c22">predicts the action</span><span class="c6">&nbsp;which is likely to take place given a sequence of video frames up to one second before an action. The approach uses visual representations rather than pixel-by-pixel classification, which means that the program can operate without labeled data, by taking advantage of the feature learning properties of deep neural networks.</span><sup
-            class="c6"><a href="#ftnt90" id="ftnt_ref90">[90]</a></sup></li>
+            class="c6 c12"><a href="#ftnt90" id="ftnt_ref90">[90]</a></sup></li>
 </ul>
 <p class="c1 c2"><span class="c6"><br>&quot;</span><span class="c7 c6">The key idea behind our approach is that we can train deep networks to predict the visual representation of images in the future. Visual representations are a promising prediction target because they encode images at a higher semantic level than pixels yet are automatic to compute. We then apply recognition algorithms on our predicted representation to anticipate objects and actions</span><span
         class="c5">&quot;.<br></span></p>
 <ul class="c18 lst-kix_w7w41dfpoe57-0" style="margin-top: 12px;">
-    <li class="c1 c2 c13"><span class="c6">The organisers of the </span><span class="c12 c6">Thumos Action Recognition Challenge</span><sup class="c6"><a href="#ftnt91" id="ftnt_ref91">[91]</a></sup><span class="c5">&nbsp;released a paper describing the general approaches for Action Recognition from the last number of years. The paper also provides a rundown of the Challenges from 2013-2015, future directions for the challenge and ideas on how to give computers a more holistic understanding of video through Action Recognition. We hope that the Thumos Action Recognition Challenge returns in 2017 after its (seemingly) unexpected hiatus. </span>
+    <li class="c1 c2 c13"><span class="c6">The organisers of the </span><span class="c12 c6">Thumos Action Recognition Challenge</span><sup class="c6 c12"><a href="#ftnt91" id="ftnt_ref91">[91]</a></sup><span class="c5">&nbsp;released a paper describing the general approaches for Action Recognition from the last number of years. The paper also provides a rundown of the Challenges from 2013-2015, future directions for the challenge and ideas on how to give computers a more holistic understanding of video through Action Recognition. We hope that the Thumos Action Recognition Challenge returns in 2017 after its (seemingly) unexpected hiatus. </span>
     </li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
@@ -772,7 +771,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c10"><span class="c6">&ldquo;</span><span class="c7 c6">A key goal of Computer Vision is to recover the underlying 3D structure from 2D observations of the world.</span><span class="c6">&rdquo; - Rezende et al. (2016, p. 1)</span><sup
-        class="c6"><a href="#ftnt92" id="ftnt_ref92">[92]</a></sup></p>
+        class="c6 c12"><a href="#ftnt92" id="ftnt_ref92">[92]</a></sup></p>
 
 <p class="c1"><span class="c6"><br>In Computer Vision, the classification of scenes, objects and activities, along with the output of bounding boxes and image segmentation is, as we have seen, the focus of much new research. In essence, these approaches apply computation to gain an &lsquo;understanding&rsquo;
     of the 2D space of an image. However, detractors note that a 3D understanding is imperative for systems to successfully </span><span class="c6">interpret, and navigate, the real world.</span></p>
@@ -789,12 +788,12 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1"><span class="c6">&ldquo;</span><span class="c7 c6">the 2D projection of a scene is a complex function of the attributes and positions of the camera, lights and objects that make up the scene. If endowed with 3D understanding, agents can abstract away from this complexity to form stable, disentangled representations, e.g., recognizing that a chair is a chair whether seen from above or from the side, under different lighting conditions, or under partial occlusion.</span><span
-        class="c6">&rdquo;</span><sup class="c6"><a href="#ftnt93" id="ftnt_ref93">[93]</a></sup></p>
+        class="c6">&rdquo;</span><sup class="c6 c12"><a href="#ftnt93" id="ftnt_ref93">[93]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1"><span class="c6">However, 3D understanding has traditionally faced several impediments. The first concerns the problem of both &lsquo;</span><span class="c6">self and normal occlusion&rsquo;</span><span class="c6">&nbsp;along with the numerous 3D shapes which fit a given 2D representation. Understanding problems are further compounded by the inability to map different images of the same structures to </span><span
-        class="c6">the same </span><span class="c6">3D space, and in the handling of the multi-modality of these representations.</span><sup class="c6"><a href="#ftnt94" id="ftnt_ref94">[94]</a></sup><span class="c6">&nbsp;Finally, ground-truth 3D datasets were traditionally quite expensive and difficult to obtain which, when coupled with divergent approaches for representing 3D structures, may have led to training limitations</span><span
+        class="c6">the same </span><span class="c6">3D space, and in the handling of the multi-modality of these representations.</span><sup class="c6 c12"><a href="#ftnt94" id="ftnt_ref94">[94]</a></sup><span class="c6">&nbsp;Finally, ground-truth 3D datasets were traditionally quite expensive and difficult to obtain which, when coupled with divergent approaches for representing 3D structures, may have led to training limitations</span><span
         class="c6">.</span></p>
 
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
@@ -808,7 +807,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 <p class="c1"><span class="c12 c6"></span></p>
 
 <p class="c1"><span class="c6">This first section is a tad scattered, acting as a catch-all for computation applied to objects represented with 3D data, inference of 3D object shape from 2D images and Pose Estimation; determining the transformation of an object&rsquo;s 3D pose from 2D images.</span><sup
-        class="c6"><a href="#ftnt95" id="ftnt_ref95">[95]</a></sup><span class="c6">&nbsp;The process of reconstruction also creeps in ahead of the following section which deals with it explicitly.</span><span class="c28 c6">&nbsp;</span><span
+        class="c6 c12"><a href="#ftnt95" id="ftnt_ref95">[95]</a></sup><span class="c6">&nbsp;The process of reconstruction also creeps in ahead of the following section which deals with it explicitly.</span><span class="c28 c6">&nbsp;</span><span
         class="c5">However, with these points in mind, we present the work which excited our team the most in this general area:</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
@@ -820,7 +819,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 </ul>
 <p class="c1 c9"><span class="c29 c28 c6 c14"></span></p>
 <ul class="c18 lst-kix_7rbz49bxi8wy-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">ObjectNet3D: A Large Scale Database for 3D Object Recognition</span><sup class="c6"><a href="#ftnt97" id="ftnt_ref97">[97]</a></sup><span class="c6">&nbsp;- contributes a database for 3D object recognition, presenting 2D images and 3D shapes for 100 object categories. &lsquo;</span><span
+    <li class="c1 c2 c13"><span class="c12 c6">ObjectNet3D: A Large Scale Database for 3D Object Recognition</span><sup class="c6 c12"><a href="#ftnt97" id="ftnt_ref97">[97]</a></sup><span class="c6">&nbsp;- contributes a database for 3D object recognition, presenting 2D images and 3D shapes for 100 object categories. &lsquo;</span><span
             class="c7 c6">Objects in the images in our database [taken from ImageNet] are aligned with the 3D shapes [taken from the ShapeNet repository], and the alignment provides both accurate 3D pose annotation and the closest 3D shape annotation for each 2D object.</span><span
             class="c6">&rsquo; Baseline experiments are provided on</span><span class="c6">: Region proposal generation, 2D object detection, joint 2D detection and 3D object pose estimation, and image-based 3D shape retrieval.</span><span
             class="c5"><br></span><br></li>
@@ -832,7 +831,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c10 image-margin"><span
         style="/*overflow: hidden; display: inline-block; */margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 214.67px;"><img
-        alt="Screenshot 2017-03-07 18.08.04.png" src="assets/images/image4.png" class="border cntr"
+        alt="Screenshot 2017-03-07 18.08.04.png" src="assets/images/c-image4.jpg" class="border cntr"
         style="width: 90%; max-width: 624px; /*width: 624.00px; height: 214.67px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1"><span class="c3 c12">Note</span><span class="c8 c3">: Images taken from Ebay (left) and an overview of the functionality of 3D-R2N2 (right). </span></p>
@@ -840,7 +839,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 <p class="c1"><span class="c3 c12">Note from source</span><span class="c8 c3">: Some sample images of the objects we [the authors] wish to reconstruct - notice that views are separated by a large baseline and objects&rsquo; appearance shows little texture and/or are non-lambertian. (b) An overview of our proposed 3D-R2N2: The network takes a sequence of images (or just one image) from arbitrary (uncalibrated) viewpoints as input (in this example, 3 views of the armchair) and generates voxelized 3D reconstruction as an output. The reconstruction is incrementally refined as the network sees more views of the object.</span>
 </p>
 
-<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Choy et al. (2016, p. 3)</span><sup class="c3"><a href="#ftnt99" id="ftnt_ref99">[99]</a></sup></p>
+<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Choy et al. (2016, p. 3)</span><sup class="c6 c12"><a href="#ftnt99" id="ftnt_ref99">[99]</a></sup></p>
 
 <p class="c1 c9"><span class="c8 c3"></span></p>
 
@@ -864,10 +863,10 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 196.00px;"><img
-        alt="" class="border cntr" src="assets/images/image1.png" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 196.00px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image1.jpg" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 196.00px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1 c2"><span class="c3 c12">Note </span><span class="c3 c12">from source</span><span class="c3">: The PrGAN architecture for generating 2D images of shapes. A 3D voxel representation (32</span><span class="c3 c45">3</span><span class="c3">) and viewpoint are independently generated from the input z (201-d vector). The projection module renders the voxel shape from a given viewpoint (&theta;, &phi;) to create an image. The discriminator consists of 2D convolutional and pooling layers and aims to classify if the input image is generated or real. </span><span
-        class="c6"><br></span><span class="c3 c12">Source</span><span class="c3">: Gadhelha et al. (2016, p. 3)</span><sup class="c3"><a href="#ftnt101" id="ftnt_ref101">[101]</a></sup></p>
+        class="c6"><br></span><span class="c3 c12">Source</span><span class="c3">: Gadhelha et al. (2016, p. 3)</span><sup class="c6 c12"><a href="#ftnt101" id="ftnt_ref101">[101]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -891,7 +890,7 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 </ul>
 <p class="c1 c2"><span class="c6">DeepMind&rsquo;s strong generative model runs on both volumetric and mesh-based representations. The use of Mesh-based representations with OpenGL allows more knowledge to be built in, e.g. how light affects the scene and the materials used. &ldquo;</span><span
         class="c7 c6">Using a 3D mesh-based representation and training with a fully-fledged black-box renderer in the loop enables learning of the interactions between an object&rsquo;s colours, materials and textures, positions of lights, and of other objects</span><span
-        class="c6">.&rdquo;</span><sup class="c6"><a href="#ftnt103" id="ftnt_ref103">[103]</a></sup><span class="c5"><br><br>The models are of high quality, capture uncertainty and are amenable to probabilistic inference, allowing for applications in 3D generation and simulation. The team achieve the first quantitative benchmark for 3D density modelling on 3D MNIST and ShapeNet. This approach demonstrates that models may be trained end-to-end unsupervised on 2D images, requiring no ground-truth 3D labels.</span>
+        class="c6">.&rdquo;</span><sup class="c6 c12"><a href="#ftnt103" id="ftnt_ref103">[103]</a></sup><span class="c5"><br><br>The models are of high quality, capture uncertainty and are amenable to probabilistic inference, allowing for applications in 3D generation and simulation. The team achieve the first quantitative benchmark for 3D density modelling on 3D MNIST and ShapeNet. This approach demonstrates that models may be trained end-to-end unsupervised on 2D images, requiring no ground-truth 3D labels.</span>
 </p>
 
 <p class="c1 c9"><span class="c5"></span></p>
@@ -908,18 +907,18 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
     <span class="c28 c6"><br></span><span class="c6">However, 3D Pose Estimation takes this even further by finding the orientation of the body parts in 3D space and then an optional step of shape estimation/modelling can be performed. There has been a tremendous amount of improvement across these sub-domains in the last few years.<br></span>
 </p>
 <p class="c1"><span class="c6">In terms of competitive evaluation &ldquo;</span><span class="c7 c6">t</span><span class="c7 c6 c14">he COCO 2016 Keypoint Challenge involves simultaneously detecting people and localizing their keypoints</span><span
-        class="c6 c14">&rdquo;.</span><sup class="c6 c14"><a href="#ftnt104" id="ftnt_ref104">[104]</a></sup><span class="c6 c14">&nbsp;The European Convention on Computer Vision (ECCV)</span><sup class="c6 c14"><a href="#ftnt105" id="ftnt_ref105">[105]</a></sup><span
+        class="c6 c14">&rdquo;.</span><sup class="c6 c12"><a href="#ftnt104" id="ftnt_ref104">[104]</a></sup><span class="c6 c14">&nbsp;The European Convention on Computer Vision (ECCV)</span><sup class="c6 c12"><a href="#ftnt105" id="ftnt_ref105">[105]</a></sup><span
         class="c6 c14">&nbsp;provides more extensive literature on these subjects, however we would like to highlight:</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_al4bo8mwtqn4-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields</span><span class="c6">.</span><sup class="c6"><a href="#ftnt106" id="ftnt_ref106">[106]</a></sup><span class="c5">&nbsp;</span></li>
+    <li class="c1 c2 c13"><span class="c12 c6">Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields</span><span class="c6">.</span><sup class="c6 c12"><a href="#ftnt106" id="ftnt_ref106">[106]</a></sup><span class="c5">&nbsp;</span></li>
 </ul>
 <p class="c1 c2"><span class="c6">This method set SOTA performance on the inaugural MSCOCO 2016 keypoints challenge with 60% average precision (AP) and won the best demo award at ECCV, video: </span>
     <span class="c0">
         <a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DpW6nZXeWlGM&amp;sa=D&amp;ust=1493073366132000&amp;usg=AFQjCNELX73z-kPMWJ5BZxT9W7DXB2RqRA">Video</a>
     </span><sup
-        class="c6"><a href="#ftnt107" id="ftnt_ref107">[107]</a></sup></p>
+        class="c6 c12"><a href="#ftnt107" id="ftnt_ref107">[107]</a></sup></p>
 
     <div class="embed-container">
 <iframe class="utube-embed utube-center"
@@ -929,12 +928,12 @@ src="https://www.youtube.com/embed/PNzQ4PNZSzc">
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_al4bo8mwtqn4-0">
-    <li class="c1 c2 c13"><span class="c12 c6">Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image</span><span class="c6">.</span><sup class="c6"><a href="#ftnt108" id="ftnt_ref108">[108]</a></sup><span class="c6">&nbsp;This method first predicts 2D body joint locations and then uses another model called SMPL to create the 3D body shape mesh, which allows it to understand 3D aspects working from 2D pose estimation. The 3D mesh is capable of capturing both pose and shape, versus previous methods which could only find 2D human pose.</span><span
+    <li class="c1 c2 c13"><span class="c12 c6">Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image</span><span class="c6">.</span><sup class="c6 c12"><a href="#ftnt108" id="ftnt_ref108">[108]</a></sup><span class="c6">&nbsp;This method first predicts 2D body joint locations and then uses another model called SMPL to create the 3D body shape mesh, which allows it to understand 3D aspects working from 2D pose estimation. The 3D mesh is capable of capturing both pose and shape, versus previous methods which could only find 2D human pose.</span><span
             class="c28 c6">&nbsp;</span><span class="c6">The authors provide an excellent video analysis of their work here: </span><span class="c0">
         <a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DeUnZ2rjxGaE&amp;sa=D&amp;ust=1493073366135000&amp;usg=AFQjCNFzLZvBnnVrTYZQjKO_yKiarfZEXQ">Video</a>
 
     </span>
-        <sup class="c6"><a href="#ftnt109" id="ftnt_ref109">[109]</a></sup><span class="c5">&nbsp;<br></span></li>
+        <sup class="c6 c12"><a href="#ftnt109" id="ftnt_ref109">[109]</a></sup><span class="c5">&nbsp;<br></span></li>
 </ul>
     <div class="embed-container">
     <iframe class="utube-embed utube-center"
@@ -943,7 +942,7 @@ src="https://www.youtube.com/embed/eUnZ2rjxGaE" >
         </div>
 
 <p class="c1" style="margin-top: 20px;"><span class="c6">&ldquo;</span><span class="c7 c6">We describe the first method to automatically estimate the 3D pose of the human body as well as its 3D shape from a single unconstrained image. We estimate a full 3D mesh and show that 2D joints alone carry a surprising amount of information about body shape. The problem is challenging because of the complexity of the human body, articulation, occlusion, clothing, lighting, and the inherent ambiguity in inferring 3D from 2D</span><span
-        class="c6">&rdquo;.</span><sup class="c6"><a href="#ftnt110" id="ftnt_ref110">[110]</a></sup><span class="c28 c6"><br></span></p>
+        class="c6">&rdquo;.</span><sup class="c6 c12"><a href="#ftnt110" id="ftnt_ref110">[110]</a></sup><span class="c28 c6"><br></span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -970,15 +969,15 @@ src="https://www.youtube.com/embed/eUnZ2rjxGaE" >
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 121.33px;"><img
-        alt="" class="border cntr" src="assets/images/image13.png" style="width: 100%; max-width: 700px;  /*width: 624.00px; height: 121.33px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image13.jpg" style="width: 100%; max-width: 700px;  /*width: 624.00px; height: 121.33px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1 c2"><span class="c6"><br></span><span class="c3 c12">Note from source</span><span class="c3">: &ldquo;</span><span class="c7 c3">We present a new method for real-time high quality 4D (i.e. spatio-temporally coherent) performance capture, allowing for incremental non-rigid reconstruction from noisy input from multiple RGBD cameras. Our system demonstrates unprecedented reconstructions of challenging non-rigid sequences, at real-time rates, including robust handling of large frame-to-frame motions and topology changes.</span><span
         class="c8 c3">&rdquo;</span></p>
 
-<p class="c1 c2"><span class="c3 c12">Source</span><span class="c3">: Dou et al. (2016, p. 1)</span><sup class="c3"><a href="#ftnt112" id="ftnt_ref112">[112]</a></sup><span class="c3"><br><br></span><span class="c6">Fusion4D creates real-time, high fidelity voxel representations which have impressive applications in virtual reality, augmented reality and telepresence. This work from Microsoft will likely revolutionise motion capture, possibly for live sports. An example of the technology in real-time use is available here: </span><span
+<p class="c1 c2"><span class="c3 c12">Source</span><span class="c3">: Dou et al. (2016, p. 1)</span><sup class="c6 c12"><a href="#ftnt112" id="ftnt_ref112">[112]</a></sup><span class="c3"><br><br></span><span class="c6">Fusion4D creates real-time, high fidelity voxel representations which have impressive applications in virtual reality, augmented reality and telepresence. This work from Microsoft will likely revolutionise motion capture, possibly for live sports. An example of the technology in real-time use is available here: </span><span
         class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://youtu.be/2dkcJ1YhYw4&amp;sa=D&amp;ust=1493073366144000&amp;usg=AFQjCNFdmdjthK1OgjbRVavXtilhibQ16w">Video</a></span>
 
-    <sup class="c6"><a href="#ftnt113" id="ftnt_ref113">[113]</a></sup>
+    <sup class="c6 c12"><a href="#ftnt113" id="ftnt_ref113">[113]</a></sup>
     </p>
 <div class="embed-container">
     <iframe class="utube-embed utube-center"
@@ -1004,7 +1003,7 @@ src="https://www.youtube.com/embed/7d59O6cfaM0" >
 
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_qhe9txsqma08-0">
-    <li class="c1 c2 c13"><span class="c12 c6">Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera</span><sup class="c6"><a href="#ftnt115" id="ftnt_ref115">[115]</a></sup>
+    <li class="c1 c2 c13"><span class="c12 c6">Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera</span><sup class="c6 c12"><a href="#ftnt115" id="ftnt_ref115">[115]</a></sup>
         <span class="c5">&nbsp;won best paper at the European Convention on Computer Vision (ECCV) in 2016. The authors propose a novel algorithm capable of tracking 6D motion and various reconstructions in real-time using a single Event Camera.</span>
     </li>
 </ul>
@@ -1014,17 +1013,17 @@ src="https://www.youtube.com/embed/7d59O6cfaM0" >
 
 <p class="c10 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 312.00px;"><img
-        alt="" class="border cntr" src="assets/images/image5.png" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 312.00px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image5.jpg" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 312.00px; /*margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1 c2"><span class="c3 c12">Note from source</span><span class="c8 c3">: Demonstrations in various settings of the different aspects of our joint estimation algorithm. (a) visualisation of the input event stream; (b) estimated gradient keyframes; (c) reconstructed intensity keyframes with super resolution and high dynamic range properties; (d) estimated depth maps; (e) semi-dense 3D point clouds.</span>
 </p>
 
-<p class="c1 c2"><span class="c3 c12">Source: </span><span class="c3">Kim et al. (2016, p. 12)</span><sup class="c3"><a href="#ftnt116" id="ftnt_ref116">[116]</a></sup></p>
+<p class="c1 c2"><span class="c3 c12">Source: </span><span class="c3">Kim et al. (2016, p. 12)</span><sup class="c6 c12"><a href="#ftnt116" id="ftnt_ref116">[116]</a></sup></p>
 
 <p class="c1 c2 c9"><span class="c8 c3"></span></p>
 
 <p class="c1 c2"><span class="c6">The Event camera is gaining favour with researchers in Computer Vision due to its reduced latency, lower power consumption and higher dynamic range when compared to traditional cameras. Instead of a sequence of frames outputted by a regular camera, the event camera outputs &ldquo;</span><span
-        class="c7 c6">a stream of asynchronous spikes, each with pixel location, sign and precise timing, indicating when individual pixels record a threshold log intensity change.</span><span class="c6">&rdquo;</span><sup class="c6"><a
+        class="c7 c6">a stream of asynchronous spikes, each with pixel location, sign and precise timing, indicating when individual pixels record a threshold log intensity change.</span><span class="c6">&rdquo;</span><sup class="c6 c12"><a
         href="#ftnt117" id="ftnt_ref117">[117]</a></sup></p>
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
@@ -1032,7 +1031,7 @@ src="https://www.youtube.com/embed/7d59O6cfaM0" >
 <p class="c1 c2"><span class="c6">For an explanation of event camera functionality, real-time 3D reconstruction and 6-DoF tracking, see the paper&rsquo;s accompanying video here: </span><span class="c0">
     <a class="c4 a-word-wrap" href="https://www.google.ccom/url?q=https://www.youtube.com/watch?v%3DyHLyhdMSw7w&amp;sa=D&amp;ust=1493073366152000&amp;usg=AFQjCNG5vda2RX-UAwhS8qhwLIAojln0_w">Video</a></span>
 
-    <sup class="c6"><a href="#ftnt118" id="ftnt_ref118">[118]</a>
+    <sup class="c6 c12"><a href="#ftnt118" id="ftnt_ref118">[118]</a>
 
     </sup><span class="c5">&nbsp; <br></span></p>
 
@@ -1075,7 +1074,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/  margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 517.33px;"><img
-        alt="" class="border cntr" src="assets/images/image6.png" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 517.33px; /*display: initial !important; margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
+        alt="" class="border cntr" src="assets/images/c-image6.jpg" style="width: 100%; max-width: 624px; /*width: 624.00px; height: 517.33px; /*display: initial !important; margin-left: 0.00px; margin-top: 0.00px; */transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span
         class="c6"><br></span><span class="c3 c12">Note</span>
 <span class="c3">: Left: input image. Right: Automatically created CAD model from input.<br></span><span class="c3 c12">Note from source</span><span class="c8 c3">: The reconstruction results. In each example the left image is the real input image and the right image is the rendered 3D CAD model produced by IM2CAD.</span>
 <br><span class="c3 c12">Source</span><span class="c3">: Izadinia et al. (2016, p. 10)</span>
@@ -1107,7 +1106,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
     <li class="c1 c13 c23"><span class="c6">After finding the objects within the image, </span><span class="c6 c22">CAD Model Alignment</span>
         <span class="c6">&nbsp;is completed to find the closest models within the ShapeNet repository for the detected objects. For example, the type of chair, given shape and approximate 3D pose. Each 3D model is rendered to 32 viewpoints which are then compared with the bounding box generated in object detection using </span>
         <span class="c6 c22">deep features</span>
-        <sup class="c6"><a class="a-word-wrap" href="#ftnt122" id="ftnt_ref122">[122]</a></sup><span class="c5">.</span></li>
+        <sup class="c6 c12"><a class="a-word-wrap" href="#ftnt122" id="ftnt_ref122">[122]</a></sup><span class="c5">.</span></li>
     <li class="c1 c13 c23"><span class="c6 c22">Object Placement in the Scene</span></li>
     <li class="c1 c13 c23">
         <span class="c6">Finally Scene Optimization further refines the placement of the objects by optimizing the visual similarity between the camera views of the rendered scene and input image.</span>
@@ -1122,9 +1121,9 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c10 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_wbj7rym4u0qv-0">
-    <li class="c1 c2 c13"><span class="c12 c6">Learning Motion Patterns in Videos</span><sup class="c6"><a href="#ftnt123" id="ftnt_ref123">[123]</a></sup><span class="c6">&nbsp;proposes to solve the issue of determining </span><span class="c6 c22">object motion independent of camera movement</span><span
+    <li class="c1 c2 c13"><span class="c12 c6">Learning Motion Patterns in Videos</span><sup class="c6 c12"><a href="#ftnt123" id="ftnt_ref123">[123]</a></sup><span class="c6">&nbsp;proposes to solve the issue of determining </span><span class="c6 c22">object motion independent of camera movement</span><span
             class="c6">&nbsp;using synthetic video sequences to teach the networks. &ldquo;</span><span class="c7 c6">The core of our approach is a fully convolutional network, which is learnt entirely from synthetic video sequences, and their ground-truth optical flow and motion segmentation.</span><span
-            class="c6">&rdquo; </span><span class="c6">The authors test their approach on the new moving object segmentation dataset called DAVIS,</span><sup class="c6"><a href="#ftnt124" id="ftnt_ref124">[124]</a></sup><span class="c5">&nbsp;as well as the Berkeley motion segmentation dataset and achieve SOTA on both.</span>
+            class="c6">&rdquo; </span><span class="c6">The authors test their approach on the new moving object segmentation dataset called DAVIS,</span><sup class="c6 c12"><a href="#ftnt124" id="ftnt_ref124">[124]</a></sup><span class="c5">&nbsp;as well as the Berkeley motion segmentation dataset and achieve SOTA on both.</span>
     </li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
@@ -1171,13 +1170,13 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
     of deep learning, of which there are many, point to the importance and functionality of SLAM as an algorithm:</span></p>
 
 <p class="c1"><span class="c6"><br>&ldquo;</span><span class="c7 c6">Visual SLAM algorithms are able to simultaneously build 3D maps of the world while tracking the location and orientation of the camera.</span><span class="c6">&rdquo;</span><sup
-        class="c6"><a href="#ftnt127" id="ftnt_ref127">[127]</a></sup><span class="c6">&nbsp;The geometric estimation portion of the SLAM approach is not currently suited to deep learning approaches and end-to-end learning remains unlikely. SLAM represents one of the most important algorithms in robotics and was designed with large input from the Computer Vision field. The technique has found its home in applications like Google Maps, autonomous vehicles, AR devices like Google Tango</span><sup
-        class="c6"><a href="#ftnt128" id="ftnt_ref128">[128]</a></sup><span class="c5">&nbsp;and even the Mars Rover.</span></p>
+        class="c6 c12"><a href="#ftnt127" id="ftnt_ref127">[127]</a></sup><span class="c6">&nbsp;The geometric estimation portion of the SLAM approach is not currently suited to deep learning approaches and end-to-end learning remains unlikely. SLAM represents one of the most important algorithms in robotics and was designed with large input from the Computer Vision field. The technique has found its home in applications like Google Maps, autonomous vehicles, AR devices like Google Tango</span><sup
+        class="c6 c12"><a href="#ftnt128" id="ftnt_ref128">[128]</a></sup><span class="c5">&nbsp;and even the Mars Rover.</span></p>
 
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 
 <p class="c1"><span class="c6">That being said, Tomasz Malisiewicz delivers the anecdotal aggregate opinion of some prominent researchers on the issue, who agree &ldquo;</span><span class="c7 c6">that </span><span class="c7 c6">semantics are necessary to build bigger and better SLAM systems.</span><span
-        class="c6">&rdquo;</span><sup class="c6"><a href="#ftnt129" id="ftnt_ref129">[129]</a></sup><span class="c5">&nbsp;This potentially shows promise for future applications of Deep Learning in the SLAM domain.</span></p>
+        class="c6">&rdquo;</span><sup class="c6 c12"><a href="#ftnt129" id="ftnt_ref129">[129]</a></sup><span class="c5">&nbsp;This potentially shows promise for future applications of Deep Learning in the SLAM domain.</span></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -1203,7 +1202,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1"><span class="c6"><br>In summation, we believe that SLAM is not likely to be completely</span><span class="c28 c6">&nbsp;</span><span class="c6">replaced by Deep Learning. However, it is entirely likely that the two approaches may become complements to each other going forward. If you wish to learn more about SLAM, and its current SOTA, we wholeheartedly recommend Tomasz Malisiewicz&rsquo;s blog for that task: </span><span
         class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html&amp;sa=D&amp;ust=1493073366190000&amp;usg=AFQjCNHT4R3YmybNCvA5rKIQA2tai9nd8w">The Future of
-    Real-Time SLAM and Deep Learning vs SLAM</a></span><sup class="c6"><a href="#ftnt130" id="ftnt_ref130">[130]</a></sup></p>
+    Real-Time SLAM and Deep Learning vs SLAM</a></span><sup class="c6 c12"><a href="#ftnt130" id="ftnt_ref130">[130]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -1216,7 +1215,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <span class="c5">For this reason, ConvNet architectures are of fundamental importance to Computer Vision as a whole. The following features some noteworthy ConvNet architectures from 2016, many of which take inspiration from the recent success of ResNets. </span>
 <ul class="c18 lst-kix_jiwkhisoudvb-0" style="margin-top: 10px;">
     <li class="c1 c2 c13"><span class="c12 c6">Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning</span><sup class="c12 c6"><a href="#ftnt131" id="ftnt_ref131">[131]</a></sup><span class="c6">&nbsp;- present Inception v4, a new Inception architecture which builds on the Inception v2 and v3 from the end of 2015.</span><sup
-            class="c6"><a href="#ftnt132" id="ftnt_ref132">[132]</a></sup><span
+            class="c6 c12"><a href="#ftnt132" id="ftnt_ref132">[132]</a></sup><span
             class="c5">&nbsp;The paper also provides an analysis of using residual connections for training Inception Networks along with some Residual-Inception hybrid networks. </span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
@@ -1226,7 +1225,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
     </li>
 </ul>
 <p class="c1 c2"><span class="c6"><br>&ldquo;</span><span class="c7 c6">DenseNets have several compelling advantages: they alleviate the vanishing-gradient problem, strengthen feature propagation, encourage feature reuse, and substantially reduce the number of parameters</span><span
-        class="c6">&rdquo;.</span><sup class="c6"><a href="#ftnt134" id="ftnt_ref134">[134]</a></sup><span class="c5">&nbsp;<br></span></p>
+        class="c6">&rdquo;.</span><sup class="c6 c12"><a href="#ftnt134" id="ftnt_ref134">[134]</a></sup><span class="c5">&nbsp;<br></span></p>
 
 <p class="c10" style="margin-top: 10px;"><span class="c12 c6">Figure 16</span><span class="c5">: Example of DenseNet Architecture</span></p>
 
@@ -1237,12 +1236,12 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1 c2"><span class="c3 c12">Note</span><span class="c3">: A 5-layer dense block with a growth rate of </span><span class="c7 c3">k = 4</span><span class="c8 c3">. Each layer takes all preceding feature-maps as input.</span></p>
 
-<p class="c1 c2"><span class="c3 c12">Source</span><span class="c3">: Huang et al. (2016)</span><sup class="c3"><a href="#ftnt135" id="ftnt_ref135">[135]</a></sup></p>
+<p class="c1 c2"><span class="c3 c12">Source</span><span class="c3">: Huang et al. (2016)</span><sup class="c6 c12"><a href="#ftnt135" id="ftnt_ref135">[135]</a></sup></p>
 
 <p class="c10 c2 c9"><span class="c8 c3"></span></p>
 
 <p class="c1 c2"><span class="c6">The model was evaluated on CIFAR-10, CIFAR-100, SVHN and ImageNet; it achieved SOTA on a number of them. Impressively, DenseNets achieve these results while using less memory and with reduced computational requirements. There are multiple implementations (Keras, Tensorflow, etc) </span><span
-        class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://github.com/liuzhuang13/DenseNet&amp;sa=D&amp;ust=1493073366200000&amp;usg=AFQjCNELYnwIweOH8fDh3y2j0KGOk4-SDQ">here</a></span><span class="c6">.</span><sup class="c6"><a
+        class="c0"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://github.com/liuzhuang13/DenseNet&amp;sa=D&amp;ust=1493073366200000&amp;usg=AFQjCNELYnwIweOH8fDh3y2j0KGOk4-SDQ">here</a></span><span class="c6">.</span><sup class="c6 c12"><a
         href="#ftnt136" id="ftnt_ref136">[136]</a></sup></p>
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
@@ -1254,7 +1253,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1 c2 c9"><span class="c5"></span></p>
 
 <p class="c1 c2"><span class="c6">&ldquo;</span><span class="c7 c6">FractalNets repeatedly combine several parallel layer sequences with different numbers of convolutional blocks to obtain a large nominal depth, while maintaining many short paths in the network</span><span
-        class="c6">&rdquo;.</span><sup class="c6"><a href="#ftnt138" id="ftnt_ref138">[138]</a></sup></p>
+        class="c6">&rdquo;.</span><sup class="c6 c12"><a href="#ftnt138" id="ftnt_ref138">[138]</a></sup></p>
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
 
@@ -1272,7 +1271,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1 c2 c9"><span class="c27 c7 c6"></span></p>
 
 <p class="c1 c2"><span class="c7 c6">&ldquo;It can be furthermore compressed using methods such as DeepCompression and thus its memory consumption can be decreased drastically. We intentionally tried to create a mother architecture with minimum reliance on new features proposed recently, to show the effectiveness of a well-crafted yet simple convolutional architecture which can then later be enhanced with existing or new methods presented in the literature.</span><span
-        class="c6">&rdquo;</span><sup class="c6"><a href="#ftnt140" id="ftnt_ref140">[140]</a></sup></p>
+        class="c6">&rdquo;</span><sup class="c6 c12"><a href="#ftnt140" id="ftnt_ref140">[140]</a></sup></p>
 
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 
@@ -1293,9 +1292,9 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1"><span class="c5">A Rectified Linear Unit (ReLU) is traditionally the dominant activation function for all Neural Networks. However, here are some recent alternatives:<br></span></p>
 <ul class="c18 lst-kix_kg9o9flo8md3-0 start" style="margin-bottom:15px;">
-    <li class="c1 c2 c13"><span class="c12 c6">Concatenated Rectified Linear Units (CRelu)</span><sup class="c6"><a href="#ftnt143" id="ftnt_ref143">[143]</a></sup></li>
-    <li class="c1 c2 c13"><span class="c12 c6">Exponential Linear Units (ELUs)</span><sup class="c6"><a href="#ftnt144" id="ftnt_ref144">[144]</a></sup><span class="c5">&nbsp;from the close of 2015</span></li>
-    <li class="c1 c2 c13"><span class="c12 c6">Parametric Exponential Linear Unit (PELU)</span><sup class="c6"><a href="#ftnt145" id="ftnt_ref145">[145]</a></sup><span class="c5">&nbsp;</span></li>
+    <li class="c1 c2 c13"><span class="c12 c6">Concatenated Rectified Linear Units (CRelu)</span><sup class="c6 c12"><a href="#ftnt143" id="ftnt_ref143">[143]</a></sup></li>
+    <li class="c1 c2 c13"><span class="c12 c6">Exponential Linear Units (ELUs)</span><sup class="c6 c12"><a href="#ftnt144" id="ftnt_ref144">[144]</a></sup><span class="c5">&nbsp;from the close of 2015</span></li>
+    <li class="c1 c2 c13"><span class="c12 c6">Parametric Exponential Linear Unit (PELU)</span><sup class="c6 c12"><a href="#ftnt145" id="ftnt_ref145">[145]</a></sup><span class="c5">&nbsp;</span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -1307,8 +1306,8 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1"><span class="c6"><br>The following papers </span><span class="c6">tackle</span><span class="c6">&nbsp;</span><span class="c12 c6">rotation-invariant ConvNets</span><span class="c6">. While each approach has novelties, they all improve rotation invariance through more efficient parameter usage leading to eventual global rotation equivariance:</span><span
         class="c5"><br></span></p>
 <ul class="c18 lst-kix_t4jp9ig9481p-0 start">
-    <li style="margin-bottom:10px;" class="c1 c2 c13"><span class="c12 c6">Harmonic CNNs</span><sup class="c6"><a href="#ftnt146" id="ftnt_ref146">[146]</a></sup><span class="c5">&nbsp;replace regular CNN filters with &lsquo;circular harmonics&rsquo;. <br></span></li>
-    <li  style="margin-bottom:10px;" class="c1 c2 c13"><span class="c12 c6">Group Equivariant Convolutional Networks (G-CNNs)</span><sup class="c6"><a href="#ftnt147" id="ftnt_ref147">[147]</a></sup><span class="c6">&nbsp;</span><span class="c6">uses G-Convolutions, which</span><span
+    <li style="margin-bottom:10px;" class="c1 c2 c13"><span class="c12 c6">Harmonic CNNs</span><sup class="c6 c12"><a href="#ftnt146" id="ftnt_ref146">[146]</a></sup><span class="c5">&nbsp;replace regular CNN filters with &lsquo;circular harmonics&rsquo;. <br></span></li>
+    <li  style="margin-bottom:10px;" class="c1 c2 c13"><span class="c12 c6">Group Equivariant Convolutional Networks (G-CNNs)</span><sup class="c6 c12"><a href="#ftnt147" id="ftnt_ref147">[147]</a></sup><span class="c6">&nbsp;</span><span class="c6">uses G-Convolutions, which</span><span
             class="c28 c6">&nbsp;</span><span class="c6">are a new type of layer that &ldquo;</span><span class="c7 c6">enjoys a substantially higher degree of weight sharing than regular convolution layers and increases the expressive capacity of the network without increasing the number of parameters.</span><span
             class="c5">&rdquo;<br></span></li>
     <li style="margin-bottom:10px;" class="c1 c2 c13"><span class="c12 c6">Exploiting Cyclic Symmetry in Convolutional Neural Networks</span><sup class="c12 c6"><a href="#ftnt148" id="ftnt_ref148">[148]</a></sup><span class="c12 c6">&nbsp;</span><span class="c6">presents four operations as layers which augment neural network layers to partially increase rotational equivariance. <br></span>
@@ -1337,18 +1336,18 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c10 image-margin"><span
         style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); /*width: 505.00px; height: 442.00px;*/"><img
-        alt="Screenshot 2017-03-07 15.37.19.png" src="assets/images/image2.png"
+        alt="Screenshot 2017-03-07 15.37.19.png" src="assets/images/c-image2.jpg"
     style="width: 90%; max-width: 505px; /*width: 505.00px; height: 442.00px; margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);     border: 0px !important;" title=""></span></p>
 
 <p class="c1"><span class="c3 c12">Note</span><span class="c3">: Yellow highlight indicates that these papers feature within this piece. Pre-resnet refers to &quot;</span><span class="c7 c3">Identity Mappings in Deep Residual Networks</span><span
         class="c3">&quot; (see following section). Furthermore, while not included in the table we believe that </span><span class="c7 c3">&ldquo;</span><span class="c7 c3 c12">Learning Identity Mappings with Residual Gates</span><span class="c8 c3">&rdquo;
     produced some of the lowest error rates of 2016 with 3.65% and 18.27% on CIFAR-10 and CIFAR-100, respectively.</span></p>
 
-<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Abdi and Nahavandi (2016, p. 6)</span><sup class="c3"><a href="#ftnt150" id="ftnt_ref150">[150]</a></sup></p>
+<p class="c1"><span class="c3 c12">Source</span><span class="c3">: Abdi and Nahavandi (2016, p. 6)</span><sup class="c6 c12"><a href="#ftnt150" id="ftnt_ref150">[150]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c1"><span class="c6">Residual Networks and their variants became incredibly popular in 2016, following the success of Microsoft&rsquo;s ResNet,</span><sup class="c6"><a href="#ftnt151" id="ftnt_ref151">[151]</a></sup><span class="c6">&nbsp;with many open source versions and pre-trained models now available. In 2015, ResNet won 1</span><span
+<p class="c1"><span class="c6">Residual Networks and their variants became incredibly popular in 2016, following the success of Microsoft&rsquo;s ResNet,</span><sup class="c6 c12"><a href="#ftnt151" id="ftnt_ref151">[151]</a></sup><span class="c6">&nbsp;with many open source versions and pre-trained models now available. In 2015, ResNet won 1</span><span
         class="c6 c45">st </span><span class="c6">place in ImageNet&rsquo;s Detection, Localisation and Classification tasks as well as in COCO&rsquo;s Detection and Segmentation challenges.</span><span class="c28 c6">&nbsp;</span><span class="c6">Although questions still abound about depth, ResNets tackling of the vanishing gradient problem provided more impetus for the &ldquo;</span><span
         class="c7 c6">increased depth produces superior abstraction</span><span class="c5">&rdquo; philosophy which underpins much of Deep Learning at present.</span></p>
 
@@ -1357,7 +1356,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1"><span class="c6">ResNets are often conceptualised as an ensemble of shallower networks, which somewhat counteract the hierarchical nature of Deep Neural Networks (DNNs) by running shortcut connections parallel to their convolutional layers. These shortcuts or </span><span
         class="c7 c12 c6">skip connections</span><span class="c6">&nbsp;mitigate vanishing/exploding gradient problems associated with DNNs, by allowing easier back-propagation of gradients throughout the network layers. For more information there is a Quora thread available </span><span
         class="c0"><a class="c4" href="https://www.google.com/url?q=https://www.quora.com/What-is-an-intuitive-explanation-of-Deep-Residual-Networks&amp;sa=D&amp;ust=1493073366235000&amp;usg=AFQjCNEplN7B7B94lvdWTTuv7T3Fp_cXeg">here</a></span><span
-        class="c6">.</span><sup class="c6"><a href="#ftnt152" id="ftnt_ref152">[152]</a></sup></p>
+        class="c6">.</span><sup class="c6 c12"><a href="#ftnt152" id="ftnt_ref152">[152]</a></sup></p>
 
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -1409,25 +1408,25 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_sf6r0j5t2h4q-0 start">
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1612.07771&amp;sa=D&amp;ust=1493073366248000&amp;usg=AFQjCNGo2C9DHILstKpPwTsp9D3ScAYBiA">Highway and Residual Networks learn Unrolled
-        Iterative Estimation</a></span><sup class="c6"><a href="#ftnt159" id="ftnt_ref159">[159]</a></sup></li>
+        Iterative Estimation</a></span><sup class="c6 c12"><a href="#ftnt159" id="ftnt_ref159">[159]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1609.05672&amp;sa=D&amp;ust=1493073366249000&amp;usg=AFQjCNF1LwKZxcrnGjZ40_SWMe-W5PUm3g">Residual Networks of Residual Networks:
-        Multilevel Residual Networks</a></span><sup class="c6"><a href="#ftnt160" id="ftnt_ref160">[160]</a></sup></li>
+        Multilevel Residual Networks</a></span><sup class="c6 c12"><a href="#ftnt160" id="ftnt_ref160">[160]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1603.08029&amp;sa=D&amp;ust=1493073366250000&amp;usg=AFQjCNFTrotJ7Ol_5jDTN2WaGVWDpQIFLw">Resnet in Resnet: Generalizing Residual
-        Architectures</a></span><sup class="c6"><a href="#ftnt161" id="ftnt_ref161">[161]</a></sup><span class="c5">&nbsp;</span></li>
+        Architectures</a></span><sup class="c6 c12"><a href="#ftnt161" id="ftnt_ref161">[161]</a></sup><span class="c5">&nbsp;</span></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.10080&amp;sa=D&amp;ust=1493073366250000&amp;usg=AFQjCNG6VjxwZuA5P1bnF-EEMdjmIt7Hag">Wider or Deeper: Revisiting the ResNet Model
-        for Visual Recognition</a></span><sup class="c6"><a href="#ftnt162" id="ftnt_ref162">[162]</a></sup></li>
+        for Visual Recognition</a></span><sup class="c6 c12"><a href="#ftnt162" id="ftnt_ref162">[162]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1604.03640&amp;sa=D&amp;ust=1493073366251000&amp;usg=AFQjCNEgt9mBSNqcxBblAehhow08xHXnFw">Bridging the Gaps Between Residual Learning,
-        Recurrent Neural Networks and Visual Cortex</a></span><sup class="c6"><a href="#ftnt163" id="ftnt_ref163">[163]</a></sup></li>
+        Recurrent Neural Networks and Visual Cortex</a></span><sup class="c6 c12"><a href="#ftnt163" id="ftnt_ref163">[163]</a></sup></li>
 </ul>
 <ul class="c18 lst-kix_jiwkhisoudvb-0">
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1606.05262&amp;sa=D&amp;ust=1493073366252000&amp;usg=AFQjCNEAywMkN0qZuP6TSzQL4bXWlsEN7w">Convolutional Residual Memory
-        Networks</a></span><sup class="c6"><a href="#ftnt164" id="ftnt_ref164">[164]</a></sup></li>
+        Networks</a></span><sup class="c6 c12"><a href="#ftnt164" id="ftnt_ref164">[164]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1611.04231&amp;sa=D&amp;ust=1493073366253000&amp;usg=AFQjCNFH8VlWV9uRQVP8bBhLLnUYkkB9PQ">Identity Matters in Deep
-        Learning</a></span><sup class="c6"><a href="#ftnt165" id="ftnt_ref165">[165]</a></sup></li>
+        Learning</a></span><sup class="c6 c12"><a href="#ftnt165" id="ftnt_ref165">[165]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1604.04112&amp;sa=D&amp;ust=1493073366254000&amp;usg=AFQjCNFUJLY_R5thx6g43m9e8Q8grNqcBA">Deep Residual Networks with Exponential Linear
-        Unit</a></span><sup class="c6"><a href="#ftnt166" id="ftnt_ref166">[166]</a></sup></li>
+        Unit</a></span><sup class="c6 c12"><a href="#ftnt166" id="ftnt_ref166">[166]</a></sup></li>
     <li class="c1 c2 c13"><span class="c0"><a class="c4" href="https://www.google.com/url?q=https://arxiv.org/abs/1605.08831&amp;sa=D&amp;ust=1493073366254000&amp;usg=AFQjCNEIONNTdD65qYFH5tsxHkFuEb-HcQ">Weighted Residuals for Very Deep
-        Networks</a></span><sup class="c6"><a href="#ftnt167" id="ftnt_ref167">[167]</a></sup></li>
+        Networks</a></span><sup class="c6 c12"><a href="#ftnt167" id="ftnt_ref167">[167]</a></sup></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 
@@ -1436,14 +1435,14 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1"><span
         class="c6 c26 c14">The significance of rich datasets for all facets of machine learning cannot be overstated. Hence, we feel it is prudent to include some of the largest advancements in this domain. To paraphrase Ben Hamner, the </span><span
         class="c6 c14">CTO and co-founder of</span><span class="c28 c6 c14">&nbsp;</span><span class="c6 c26 c14">Kaggle, &lsquo;</span><span class="c7 c6">a new dataset can make a thousand papers flourish</span><span class="c6">&rsquo;</span><span
-        class="c6 c26 c14">,</span><sup class="c6 c26 c14"><a href="#ftnt168" id="ftnt_ref168">[168]</a></sup><span class="c6">&nbsp;</span><span class="c5">that is to say the availability of data can promote new approaches, as well as breath new life into previously ineffectual techniques. </span>
+        class="c6 c26 c14">,</span><sup class="c6 c12"><a href="#ftnt168" id="ftnt_ref168">[168]</a></sup><span class="c6">&nbsp;</span><span class="c5">that is to say the availability of data can promote new approaches, as well as breath new life into previously ineffectual techniques. </span>
 </p>
 
 <p class="c1 c9"><span class="c29 c6 c26 c14"></span></p>
 
-<p class="c1"><span class="c6 c26 c14">In 2016, traditional datasets such as ImageNet</span><sup class="c6 c26 c14"><a href="#ftnt169" id="ftnt_ref169">[169]</a></sup><span class="c6 c26 c14">, Common Objects in Context (COCO)</span><sup
-        class="c6 c26 c14"><a href="#ftnt170" id="ftnt_ref170">[170]</a></sup><span class="c6 c26 c14">, the CIFARs</span><sup class="c6 c26 c14"><a href="#ftnt171" id="ftnt_ref171">[171]</a></sup><span class="c6 c26 c14">&nbsp;and MNIST</span><sup
-        class="c6 c26 c14"><a href="#ftnt172" id="ftnt_ref172">[172]</a></sup><span class="c6 c26 c14">&nbsp;were joined by a host of new entries. We also noted the rise of synthetic datasets spurred on by progress in graphics. Synthetic datasets are an interesting work-around of the large data requirements for Artificial Neural Networks (ANNs). In the interest of brevity, we have selected our (subjective) most important </span><span
+<p class="c1"><span class="c6 c26 c14">In 2016, traditional datasets such as ImageNet</span><sup class="c6 c12"><a href="#ftnt169" id="ftnt_ref169">[169]</a></sup><span class="c6 c26 c14">, Common Objects in Context (COCO)</span><sup
+        class="c6 c12"><a href="#ftnt170" id="ftnt_ref170">[170]</a></sup><span class="c6 c26 c14">, the CIFARs</span><sup class="c6 c12"><a href="#ftnt171" id="ftnt_ref171">[171]</a></sup><span class="c6 c26 c14">&nbsp;and MNIST</span><sup
+        class="c6 c12"><a href="#ftnt172" id="ftnt_ref172">[172]</a></sup><span class="c6 c26 c14">&nbsp;were joined by a host of new entries. We also noted the rise of synthetic datasets spurred on by progress in graphics. Synthetic datasets are an interesting work-around of the large data requirements for Artificial Neural Networks (ANNs). In the interest of brevity, we have selected our (subjective) most important </span><span
         class="c7 c6 c26 c14">new</span><span class="c29 c6 c26 c14">&nbsp;datasets for 2016:</span></p>
 
 <p class="c1 c9"><span class="c29 c6 c26 c14"></span></p>
@@ -1458,13 +1457,13 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c10 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); /*width: 624.00px; height: 490.67px;*/"><img
-        alt="" class="border cntr" src="assets/images/image15.png" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 490.67px;/* margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image15.jpg" style="width: 90%; max-width: 624px; /*width: 624.00px; height: 490.67px;/* margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1"><span class="c3 c12 c26 c14">Note</span><span class="c3 c26 c14">: Examples taken from SceneNet RGB-D, a dataset with 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth. The photo (a) is rendered through computer graphics with available ground truth for specific tasks from (b) to (e). Creation of synthetic datasets should aid the process of domain adaptation. </span><span
         class="c8 c3 c14">Synthetic datasets are somewhat pointless if the knowledge learned from them cannot be applied to the real world. This is where domain adaptation comes in, which refers to this transfer learning process of moving knowledge from one domain to another, e.g. from synthetic to real-world environments. Domain adaptation has recently been improving very rapidly again highlighting the recent efforts in transfer learning. Columns (c) vs (d) show the difference between instance and semantic/class segmentation.</span>
 </p>
 
-<p class="c1"><span class="c3 c12 c26 c14">Source</span><span class="c3 c26 c14">: McCormac et al. (2017)</span><sup class="c3 c26 c14"><a href="#ftnt174" id="ftnt_ref174">[174]</a></sup></p>
+<p class="c1"><span class="c3 c12 c26 c14">Source</span><span class="c3 c26 c14">: McCormac et al. (2017)</span><sup class="c3 c12"><a href="#ftnt174" id="ftnt_ref174">[174]</a></sup></p>
 
 <p class="c1 c9"><span class="c29 c6 c26 c14"></span></p>
 <ul class="c18 lst-kix_d8mii7sh8xk5-0">
@@ -1483,13 +1482,13 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1 image-margin"><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); /*width: 624.00px; height: 290.67px;*/">
-    <img alt="" class="border cntr" src="assets/images/image3.png" style="width: 95%; max-width: 740px; /*width: 624.00px; height: 290.67px; /*margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <img alt="" class="border cntr" src="assets/images/c-image3-40.jpg" style="width: 95%; max-width: 740px; /*width: 624.00px; height: 290.67px; /*margin-left: 0.00px; margin-top: 0.00px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
     <div class="bullet-point-margin">
 <p class="c1"><span class="c3 c12 c26 c14">Note</span><span class="c29 c3 c26 c14">: Taken from the CMPlaces paper showing two examples, bedrooms and kindergarten classrooms, &nbsp; across different modalities. Conventional Neural Network approaches learn representations that don&rsquo;t transfer well across modalities and this paper attempts to generate a shared representation &ldquo;agnostic of modality&rdquo;. </span>
 </p>
 
-<p class="c1"><span class="c3 c12 c26 c14">Source</span><span class="c3 c26 c14">: Aytar et al. (2016)</span><sup class="c3 c26 c14"><a href="#ftnt177" id="ftnt_ref177">[177]</a></sup></p>
+<p class="c1"><span class="c3 c12 c26 c14">Source</span><span class="c3 c26 c14">: Aytar et al. (2016)</span><sup class="c3 c12"><a href="#ftnt177" id="ftnt_ref177">[177]</a></sup></p>
 
 <p class="c1 c9"><span class="c20 c12 c6 c14"></span></p>
 </div>
@@ -1521,15 +1520,15 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1 c9"><span class="c5 c14"></span></p>
 
 <p class="c1 c2"><span class="c6 c14">That being said, a</span><span class="c6 c14">dvancements in image understanding, such as segmentation, object classification and detection have brought video understanding to the fore of research. However, prior to this dataset release there was a real lack in the variety and scale of real-world video datasets available.</span><span
-        class="c6 c14">&nbsp;Furthermore, this dataset was just recently updated,</span><sup class="c6 c14"><a href="#ftnt181" id="ftnt_ref181">[181]</a></sup><span class="c6 c14">&nbsp;and this year in association with Kaggle, Google </span><span
-        class="c6 c14">is</span><span class="c6 c14">&nbsp;organis</span><span class="c6 c14">ing</span><span class="c6 c14">&nbsp;a video understanding competition as part of CVPR 2017.</span><sup class="c6 c14"><a href="#ftnt182" id="ftnt_ref182">[182]</a></sup>
+        class="c6 c14">&nbsp;Furthermore, this dataset was just recently updated,</span><sup class="c6 c12"><a href="#ftnt181" id="ftnt_ref181">[181]</a></sup><span class="c6 c14">&nbsp;and this year in association with Kaggle, Google </span><span
+        class="c6 c14">is</span><span class="c6 c14">&nbsp;organis</span><span class="c6 c14">ing</span><span class="c6 c14">&nbsp;a video understanding competition as part of CVPR 2017.</span><sup class="c6 c12"><a href="#ftnt182" id="ftnt_ref182">[182]</a></sup>
 </p>
 
 <p class="c1 c2 c9"><span class="c5 c14"></span></p>
 
 <p class="c1 c2"><span class="c6 c14">General information about YouTube-8M: </span><span class="c0 c14"><a class="c4"
                                                                                                            href="https://www.google.com/url?q=https://research.google.com/youtube8m/&amp;sa=D&amp;ust=1493073366284000&amp;usg=AFQjCNEe8miBW-e_PhC21UtYQYiNFyf7ig">here</a></span><sup
-        class="c6 c14"><a href="#ftnt183" id="ftnt_ref183">[183]</a></sup></p>
+        class="c6 c12"><a href="#ftnt183" id="ftnt_ref183">[183]</a></sup></p>
 
 <p class="c1 c9"><span class="c5 c14"></span></p>
 
@@ -1550,32 +1549,32 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 
 <p class="c1"><span class="c20 c12 c6">Applications/use cases</span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0 start">
-    <li class="c1 c2 c13"><span class="c6">Applications for the blind from Facebook</span><sup class="c6"><a href="#ftnt184" id="ftnt_ref184">[184]</a></sup><span class="c6">&nbsp;and hardware from Baidu.</span><sup class="c6"><a href="#ftnt185"
+    <li class="c1 c2 c13"><span class="c6">Applications for the blind from Facebook</span><sup class="c6 c12"><a href="#ftnt184" id="ftnt_ref184">[184]</a></sup><span class="c6">&nbsp;and hardware from Baidu.</span><sup class="c6 c12"><a href="#ftnt185"
                                                                                                                                                                                                                                       id="ftnt_ref185">[185]</a></sup>
     </li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
-    <li class="c1 c2 c13"><span class="c6">Emotion detection combines facial detection and semantic analysis, and is growing rapidly. There are 20+ APIs currently available.</span><sup class="c6"><a href="#ftnt186"
+    <li class="c1 c2 c13"><span class="c6">Emotion detection combines facial detection and semantic analysis, and is growing rapidly. There are 20+ APIs currently available.</span><sup class="c6 c12"><a href="#ftnt186"
                                                                                                                                                                                                        id="ftnt_ref186">[186]</a></sup><span class="c6">&nbsp;</span><span
             class="c5"><br></span></li>
-    <li class="c1 c2 c13"><span class="c6">Extracting roads from aerial imagery,</span><sup class="c6"><a href="#ftnt187" id="ftnt_ref187">[187]</a></sup><span
-            class="c6">&nbsp;land use classification from aerial maps and population density maps.</span><sup class="c6"><a href="#ftnt188" id="ftnt_ref188">[188]</a></sup><span class="c5">&nbsp;</span></li>
+    <li class="c1 c2 c13"><span class="c6">Extracting roads from aerial imagery,</span><sup class="c6 c12"><a href="#ftnt187" id="ftnt_ref187">[187]</a></sup><span
+            class="c6">&nbsp;land use classification from aerial maps and population density maps.</span><sup class="c6 c12"><a href="#ftnt188" id="ftnt_ref188">[188]</a></sup><span class="c5">&nbsp;</span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
-    <li class="c1 c2 c13"><span class="c6">Amazon Go further raised the profile of Computer Vision by demonstrating a </span><span class="c6 c22">queue-less shopping experience</span><span class="c6">,</span><sup class="c6"><a href="#ftnt189"
+    <li class="c1 c2 c13"><span class="c6">Amazon Go further raised the profile of Computer Vision by demonstrating a </span><span class="c6 c22">queue-less shopping experience</span><span class="c6">,</span><sup class="c6 c12"><a href="#ftnt189"
                                                                                                                                                                                                                                    id="ftnt_ref189">[189]</a></sup><span
-            class="c6">&nbsp;although there remain some functional issues at present.</span><sup class="c6"><a href="#ftnt190" id="ftnt_ref190">[190]</a></sup></li>
+            class="c6">&nbsp;although there remain some functional issues at present.</span><sup class="c6 c12"><a href="#ftnt190" id="ftnt_ref190">[190]</a></sup></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
     <li class="c1 c2 c13"><span class="c6">There is a </span><span class="c6 c22">huge volume</span><span class="c6">&nbsp;</span><span class="c6">of work being done for Autonomous Vehicles that we largely didn&rsquo;t touch. However, for those wishing to delve into general market trends, there&rsquo;s an excellent piece by Moritz Mueller-Freitag of Twenty Billion Neurons about the German auto industry and the impact of autonomous vehicles.</span><sup
-            class="c6"><a href="#ftnt191" id="ftnt_ref191">[191]</a></sup></li>
+            class="c6 c12"><a href="#ftnt191" id="ftnt_ref191">[191]</a></sup></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
-    <li class="c1 c2 c13"><span class="c6">Other interesting areas: Image Retrieval/Search,</span><sup class="c6"><a href="#ftnt192" id="ftnt_ref192">[192]</a></sup><span
+    <li class="c1 c2 c13"><span class="c6">Other interesting areas: Image Retrieval/Search,</span><sup class="c6 c12"><a href="#ftnt192" id="ftnt_ref192">[192]</a></sup><span
             class="c5">&nbsp;Gesture Recognition, Inpainting and Facial Reconstruction.</span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
@@ -1586,9 +1585,9 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1 c2"><span class="c6">However, while work continues on improving the error rates of these algorithms their value as a tool for medical practitioners appears increasingly evident. This is </span><span
-        class="c6 c22">particularly striking</span><span class="c6">&nbsp;when we consider the performance improvements in breast cancer detection achieved by </span><span class="c6 c22">combining AI systems</span><sup class="c6"><a href="#ftnt193"
+        class="c6 c22">particularly striking</span><span class="c6">&nbsp;when we consider the performance improvements in breast cancer detection achieved by </span><span class="c6 c22">combining AI systems</span><sup class="c6 c12"><a href="#ftnt193"
                                                                                                                                                                                                                                          id="ftnt_ref193">[193]</a></sup><span
-        class="c6">&nbsp;with </span><span class="c6 c22">medical specialists</span><span class="c6">.</span><sup class="c6"><a href="#ftnt194" id="ftnt_ref194">[194]</a></sup><span class="c5">&nbsp;In this instance, robot-human symbiosis produces accuracy far greater than the sum of its parts at 99.5%.</span>
+        class="c6">&nbsp;with </span><span class="c6 c22">medical specialists</span><span class="c6">.</span><sup class="c6 c12"><a href="#ftnt194" id="ftnt_ref194">[194]</a></sup><span class="c5">&nbsp;In this instance, robot-human symbiosis produces accuracy far greater than the sum of its parts at 99.5%.</span>
 </p>
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
@@ -1603,12 +1602,12 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 <p class="c1"><span class="c20 c12 c6">Hardware/markets</span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
     <li class="c1 c2 c13"><span class="c6">Growing markets for Robotic Vision/Machine Vision (separate fields) and potential target markets for IoT. A personal favourite of ours is the use of Deep Learning, a Raspberry Pi and TensorFlow by a farmer&rsquo;s son to sort cucumbers in Japan based on unique producer heuristics for quality, e.g. shape, size and colour.</span><sup
-            class="c6"><a href="#ftnt195" id="ftnt_ref195">[195]</a></sup><span class="c6">&nbsp;</span><span class="c5">This produced massive decreases in human-time spent by his mother sorting cucumbers.</span></li>
+            class="c6 c12"><a href="#ftnt195" id="ftnt_ref195">[195]</a></sup><span class="c6">&nbsp;</span><span class="c5">This produced massive decreases in human-time spent by his mother sorting cucumbers.</span></li>
 </ul>
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
     <li class="c1 c2 c13"><span class="c6">The trend of shrinking compute requirements and migrating to mobile is evident, &nbsp;but it&rsquo;s also complemented by steep hardware acceleration. Soon we&rsquo;ll see pocket sized CNNs and Vision Processing Units (VPUs) everywhere. For instance, the Movidius Myriad2 is used in Google&rsquo;s Project Tango and drones.</span><sup
-            class="c6"><a href="#ftnt196" id="ftnt_ref196">[196]</a></sup><span class="c6">&nbsp;</span>
+            class="c6 c12"><a href="#ftnt196" id="ftnt_ref196">[196]</a></sup><span class="c6">&nbsp;</span>
     </li>
 </ul>
 
@@ -1617,7 +1616,7 @@ src="https://www.youtube.com/embed/yHLyhdMSw7w">
 src="https://www.youtube.com/embed/hX0UELNRR1I">
 </iframe>
         </div>
-<p class="c1 c2"><span class="c6">The Movidius Fathom stick,</span><sup class="c6"><a href="#ftnt197" id="ftnt_ref197">[197]</a></sup><span class="c6">&nbsp;which also uses the Myriad2&rsquo;s technology, allows users to add SOTA Computer Vision performance to consumer devices. </span><span
+<p class="c1 c2"><span class="c6">The Movidius Fathom stick,</span><sup class="c6 c12"><a href="#ftnt197" id="ftnt_ref197">[197]</a></sup><span class="c6">&nbsp;which also uses the Myriad2&rsquo;s technology, allows users to add SOTA Computer Vision performance to consumer devices. </span><span
         class="c5">The Fathom stick, which has the physical properties of a USB stick, brings the power of a Neural Network to almost any device: Brains on a stick.</span></p>
 
 <p class="c1 c2 c9"><span class="c5"></span></p>
@@ -1631,7 +1630,7 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
-    <li class="c1 c2 c13"><span class="c6">Hololens and the near-countless other Augmented Reality headsets</span><sup class="c6"><a href="#ftnt198" id="ftnt_ref198">[198]</a></sup><span class="c5">&nbsp;entering the market.</span></li>
+    <li class="c1 c2 c13"><span class="c6">Hololens and the near-countless other Augmented Reality headsets</span><sup class="c6 c12"><a href="#ftnt198" id="ftnt_ref198">[198]</a></sup><span class="c5">&nbsp;entering the market.</span></li>
 </ul>
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_1yf6lzm6ivvf-0">
@@ -1659,7 +1658,7 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
 
 <p class="c1 c9"><span class="c5"></span></p>
 <ul class="c18 lst-kix_olf35kpnlxqs-0 start">
-    <li class="c1 c2 c13"><span class="c12 c6">Lip Reading</span><span class="c6">: In 2016 we saw huge lip reading advancements in programs such as LipNet</span><sup class="c6"><a href="#ftnt200" id="ftnt_ref200">[200]</a></sup><span class="c6">, which combine Computer Vision and NLP into </span><span
+    <li class="c1 c2 c13"><span class="c12 c6">Lip Reading</span><span class="c6">: In 2016 we saw huge lip reading advancements in programs such as LipNet</span><sup class="c6 c12"><a href="#ftnt200" id="ftnt_ref200">[200]</a></sup><span class="c6">, which combine Computer Vision and NLP into </span><span
             class="c6 c22">Visual Speech Recognition</span><span class="c6">. </span></li>
 </ul>
 <p class="c1 c9"><span class="c29 c28 c6"></span></p>
@@ -1670,7 +1669,7 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
 <p class="c1 c9"><span class="c5"></span></p>
 
 <p class="c1 c2"><span class="c3">*Disclaimer: The team wishes to mention that they </span><span class="c3 c22">do not condone</span><span class="c3">&nbsp;Network on Network (NoN) violence in any form and are sympathisers to the movement towards Generative Unadversarial Networks (GUNs).</span><sup
-        class="c3"><a href="#ftnt201" id="ftnt_ref201">[201]</a></sup><span class="c8 c3"><br></span></p>
+        class="c6 c12"><a href="#ftnt201" id="ftnt_ref201">[201]</a></sup><span class="c8 c3"><br></span></p>
 
     <br>
 
@@ -1681,15 +1680,15 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
 
 <p class="c1 c9"><span class="c5"></span></p>
 
-<p class="c10"><span class="c12 c6">Figure 20</span><span class="c6">: Computer Vision Revenue by Application Market</span><sup class="c6"><a href="#ftnt202" id="ftnt_ref202">[202]</a></sup></p>
+<p class="c10"><span class="c12 c6">Figure 20</span><span class="c6">: Computer Vision Revenue by Application Market</span><sup class="c6 c12"><a href="#ftnt202" id="ftnt_ref202">[202]</a></sup></p>
 
 <p class="c10 image-margin" style="margin-top: -2px;"><span class="c6">&nbsp;</span><span
         style="/*overflow: hidden; display: inline-block;*/ margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 543.78px; height: 313.00px;"><img
-        alt="" class="border cntr" src="assets/images/image9.png" style="max-width: 624px; width: 95%; /*width: 559.29px; height: 414.42px;/* margin-left: -9.29px; margin-top: -76.86px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+        alt="" class="border cntr" src="assets/images/c-image9.jpg" style="max-width: 624px; width: 95%; /*width: 559.29px; height: 414.42px;/* margin-left: -9.29px; margin-top: -76.86px;*/ transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 
 <p class="c1"><span class="c3 c12">Note</span><span class="c3">: Estimation of Computer Vision revenue by application market spanning the period from 2015-2022. The largest growth is forecasted to come from applications within the automotive, consumer, robotics and machine vision sectors. &nbsp;</span>
     <br>
-    <span class="c3 c12">Source</span><span class="c3">: Tractica (2016)</span><sup class="c3"><a href="#ftnt203" id="ftnt_ref203">[203]</a></sup><span class="c6"><br></span></p>
+    <span class="c3 c12">Source</span><span class="c3">: Tractica (2016)</span><sup class="c6 c12"><a href="#ftnt203" id="ftnt_ref203">[203]</a></sup><span class="c6"><br></span></p>
 
 <h1 class="c15 main-heading" id="heading-conclusion"><span class="c25">Conclusion</span></h1>
 
@@ -2026,7 +2025,7 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
         class="c21 c3"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://news.mit.edu/2016/teaching-machines-to-predict-the-future-0621&amp;sa=D&amp;ust=1493073366401000&amp;usg=AFQjCNHZQPKJg8X-e1JqDW-n233jhI8C2Q">https://news.mit.edu/2016/teaching-machines-to-predict-the-future-0621</a></span><span
         class="c8 c3 a-word-wrap">&nbsp;[Accessed: 03/02/2017].</span></p></div>
 <div><p class="c11"><a href="#ftnt_ref91" id="ftnt91">[91]</a><span class="c3">&nbsp;Idrees et al. 2016. The THUMOS Challenge on Action Recognition for Videos &quot;in the Wild&quot;. </span><span class="c7 c3">[Online] arXiv: 1604.06182</span><span
-        class="c3">. Available: </span><span class="c17 c12 c14"><a class="c4 a-word-wrap href="https://www.google.com/url?q=https://arxiv.org/abs/1604.06182v1&amp;sa=D&amp;ust=1493073366402000&amp;usg=AFQjCNEvjlvGIYp1fJlNVDGbQ8kc1q4GOA">arXiv:1604.06182v1</a></span>
+        class="c3">. Available: </span><span class="c17 c12 c14"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1604.06182v1&amp;sa=D&amp;ust=1493073366402000&amp;usg=AFQjCNEvjlvGIYp1fJlNVDGbQ8kc1q4GOA">arXiv:1604.06182v1</a></span>
 </p></div>
 <div><p class="c11"><a href="#ftnt_ref92" id="ftnt92">[92]</a><span class="c3">&nbsp;Rezende et al. 2016. Unsupervised Learning of 3D Structure from Images. </span><span class="c7 c3">[Online] arXiv: 1607.00662</span><span
         class="c3">. Available: </span><span class="c17 c12 c14"><a class="c4 a-word-wrap" href="https://www.google.com/url?q=https://arxiv.org/abs/1607.00662v1&amp;sa=D&amp;ust=1493073366496000&amp;usg=AFQjCNHIIk_91f385VYJS2ChHvyhnt4Cfw">arXiv:1607.00662v1</a></span>
@@ -2357,7 +2356,10 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
 </div>
 </body>
 
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>-->
+<script src="js_utils/banner-page/jquery-1.11.2.min.js"></script>
 
+<script type="text/javascript" src="js_utils/tipped.js"></script>
 
 <script>
     function calculateAllHeadingTops(allHeadings) {
@@ -2368,10 +2370,49 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
         }
     }
 
-    $(document).ready(function() {
-        setTimeout(function() {
+    $(document).ready(function () {
+        var allHeadings = ["heading-introduction", "heading-part-one", "heading-classification", "heading-detection", "heading-tracking", "heading-part-two",
+                "heading-segmentation", "heading-super-res", "heading-action-recogntion", "heading-part-three", "heading-3d-objects",
+                "heading-human-pose", "heading-reconstruction", "heading-other-uncategorised",
+                "heading-3d-summation", "heading-part-four", "heading-convnet-arch",
+                "heading-datasets", "heading-ungroupable", "heading-conclusion", "heading-references"];
+
+        setTimeout(function () {
+            // Push all top positions of headings into array
+            btnScrollYs = [];
+            calculateAllHeadingTops(allHeadings);
+            // change table of contents scroll bar if you scroll automatically
+
+            var currentlyHighlightedIdx = 0;
+            $(window).scroll(function () {
+                var currentScrollPos = $(window).scrollTop() + 300;
+//            console.log(currentScrollPos);/
+
+                for (var i = 0; i < btnScrollYs.length; i++) {
+                    if (currentScrollPos > btnScrollYs[i] && currentScrollPos < btnScrollYs[btnScrollYs.length - 1]) {
+//                    console.log('i bigger', i, allHeadings[i])
+                    }
+                    else {
+                        tobBtns.eq(currentlyHighlightedIdx).removeClass('current-tob-bar-btn');
+                        if (currentScrollPos < btnScrollYs[0]) {
+                            currentlyHighlightedIdx = 0;
+                        }
+                        else if (currentScrollPos > btnScrollYs[btnScrollYs.length - 1]) {
+                            currentlyHighlightedIdx = btnScrollYs.length - 1;
+                        }
+                        else {
+                            currentlyHighlightedIdx = i - 1;
+                        }
+//                    console.log('current:', currentlyHighlightedIdx);
+
+                        tobBtns.eq(currentlyHighlightedIdx).addClass('current-tob-bar-btn');
+                        break
+                    }
+                }
+            });
+
             $('.table-of-contents-bar').css('display', 'block');
-        }, 1500);
+        }, 2500);
 
         // Find all ibids. 94, 135 are double ibids
         var ibid_idx = [32, 70, 72, 79, 86, 93, 94, 99, 101, 110, 112, 116, 121, 129, 134, 135, 140, 174, 175, 177, 203];
@@ -2411,71 +2452,17 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
                     }, 1400)
                 }
             });
-            //console.log(a, el)
         });
-
-        // todo fix above. By always checking between two ranges and take number away if most of it is in that section
-
-        var allHeadings = ["heading-introduction", "heading-part-one", "heading-classification", "heading-detection", "heading-tracking", "heading-part-two",
-                           "heading-segmentation", "heading-super-res", "heading-action-recogntion", "heading-part-three", "heading-3d-objects" ,
-                            "heading-human-pose", "heading-reconstruction","heading-other-uncategorised",
-                           "heading-3d-summation", "heading-part-four", "heading-convnet-arch",
-                           "heading-datasets", "heading-ungroupable", "heading-conclusion", "heading-references"];
-
-        // Push all top positions of headings into array
-        btnScrollYs = [];
-        calculateAllHeadingTops(allHeadings);
-        // change table of contents scroll bar if you scroll automatically
-
-        var currentlyHighlightedIdx = 0;
-
-        $(window).scroll(function () {
-            var currentScrollPos = $(window).scrollTop() + 300;
-//            console.log(currentScrollPos);/
-
-            for (var i = 0; i < btnScrollYs.length; i++) {
-                if (currentScrollPos > btnScrollYs[i] && currentScrollPos < btnScrollYs[btnScrollYs.length - 1]) {
-//                    console.log('i bigger', i, allHeadings[i])
-                }
-                else {
-                    tobBtns.eq(currentlyHighlightedIdx).removeClass('current-tob-bar-btn');
-                    if (currentScrollPos < btnScrollYs[0]) {
-                        currentlyHighlightedIdx = 0;
-                    }
-                    else if (currentScrollPos > btnScrollYs[btnScrollYs.length - 1]) {
-                        currentlyHighlightedIdx = btnScrollYs.length - 1;
-                    }
-                    else {
-                        currentlyHighlightedIdx = i - 1;
-                    }
-//                    console.log('current:', currentlyHighlightedIdx);
-
-                    tobBtns.eq(currentlyHighlightedIdx).addClass('current-tob-bar-btn');
-                    break
-                }
-            }
-
-        });
-
 
         // commented out c14 and c8. Only seemed to cause trouble anyway.
 
-        /*
-        Final content bar for mobile ideas:
-        If mobile or small screen, hamburger bar should always show
-        If large screen, no hamburger bar and original menu.
-        Always have resize event to show hamburger bar again if screen is too small. @media
-        1.
-        */
-
-        //$('.hamburger-container').css('display', 'none');
-
-
-        // todo all links the same on both pages. damn looks worse why??
-        // todo redirect notice thing.
-
-        // main page
+        // todo redirect notice thing + tipped could be bigger
+        // main page##########
         // todo why is it still flashing
+
+
+        // todo carousel side arrows.
+        // todo download pdf has no signatures
 
         // Hamburger bar code.
         var $tableOfContentsBar = $('.table-of-contents-list');
@@ -2491,14 +2478,11 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
         });
 
         if ($(window).width() < 992) {
-            console.log('width less than 992px');
             // Hide table of contents bar
             $tableOfContentsBar.css('display', 'none');
         }
         else {
-            console.log('width greater than 922px');
             $tableOfContentsBar.css('display', 'block');
-            //$hamburgerBars.css('')
         }
 
         var wentBelow992 = -1;
@@ -2521,7 +2505,6 @@ src="https://www.youtube.com/embed/hX0UELNRR1I">
                   }
               }
           }, 250);
-
         });
     });
 </script>
